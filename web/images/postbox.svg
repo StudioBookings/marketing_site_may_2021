@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="386px" height="257px" viewBox="0 0 386 257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="33.5532007%" x2="1.61204453%" y2="65.9165399%" id="linearGradient-1">
+            <stop stop-color="#8834FF" offset="0%"></stop>
+            <stop stop-color="#C96DFB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="13.4262465%" x2="1.61204453%" y2="85.3945831%" id="linearGradient-2">
+            <stop stop-color="#8834FF" offset="0%"></stop>
+            <stop stop-color="#C96DFB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="25.1095679%" x2="1.61204453%" y2="74.0879424%" id="linearGradient-3">
+            <stop stop-color="#8834FF" offset="0%"></stop>
+            <stop stop-color="#C96DFB" offset="100%"></stop>
+        </linearGradient>
+        <path d="M89.1649748,29.5661256 C160.616667,-20.9225013 219.630195,7.81135271 309.906992,55.3530415 C400.183788,102.89473 411.175283,167.013158 337.294943,223.412185 C263.414603,279.811212 129.257528,258.440859 65.9394607,208.975018 C2.62139375,159.509176 17.7132823,80.0547526 89.1649748,29.5661256 Z" id="path-4"></path>
+        <path d="M71,0 L213,0 C230.120827,-1.83513942e-14 244,13.8791728 244,31 L244,102 C244,103.104569 243.104569,104 242,104 L42,104 C40.8954305,104 40,103.104569 40,102 L40,31 C40,13.8791728 53.8791728,3.14504494e-15 71,0 Z" id="path-6"></path>
+        <filter x="-2.2%" y="-4.3%" width="104.4%" height="108.7%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="-9" dy="4" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M31.5331903,0 L43.5331903,0 C60.6540175,-3.14504494e-15 74.5331903,13.8791728 74.5331903,31 L74.5331903,93 C74.5331903,94.1045695 73.6377598,95 72.5331903,95 L2.53319026,95 C1.42862076,95 0.533190264,94.1045695 0.533190264,93 L0.533190264,31 C0.533190264,13.8791728 14.412363,3.14504494e-15 31.5331903,0 Z" id="path-8"></path>
+        <filter x="-6.8%" y="-5.3%" width="113.5%" height="110.5%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="-10" dy="7" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Sign-Up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Signup-Success" transform="translate(-529.000000, -412.000000)">
+            <g id="Group" transform="translate(529.000000, 412.000000)">
+                <path d="M280.761192,23.780985 C288.232422,33.8397918 303.893259,43.3893977 335.507085,36.8532602 C367.120911,30.3171226 325.317359,0 308.134138,0 C290.950918,0 273.289962,13.7221782 280.761192,23.780985 Z" id="Path-15" fill="url(#linearGradient-1)" opacity="0.200000003"></path>
+                <path d="M10.4539472,190 C-9.46963879,190 1.4266497,223.584882 23.493377,238.684598 C45.5601043,253.784314 79.8277326,262.296807 75.651096,246.70273 C71.4744594,231.108652 30.3775332,190 10.4539472,190 Z" id="Path-18" fill="url(#linearGradient-2)" opacity="0.200000003"></path>
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <use id="shape" fill="url(#linearGradient-3)" opacity="0.0599999987" xlink:href="#path-4"></use>
+                <g id="Group-11" mask="url(#mask-5)">
+                    <g transform="translate(51.000000, 49.000000)">
+                        <rect id="Rectangle" stroke="#852AFF" stroke-width="4" fill="#EADAFE" fill-rule="evenodd" x="163" y="102" width="9" height="125" rx="4"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#CBAAF2" fill-rule="evenodd" x="165" y="104" width="5" height="14"></rect>
+                        <g id="Rectangle" stroke="none" fill="none">
+                            <use fill="#F2E8FF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <path stroke="#852AFF" stroke-width="4" d="M71,2 C54.9837423,2 42,14.9837423 42,31 L42,102 L242,102 L242,31 C242,14.9837423 229.016258,2 213,2 L71,2 Z" stroke-linejoin="square"></path>
+                        </g>
+                        <g id="Group-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(39.466810, 0.000000)">
+                            <g id="Rectangle">
+                                <use fill="#E2CBFE" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                                <path stroke="#852AFF" stroke-width="4" d="M31.5331903,2 C15.5169325,2 2.53319026,14.9837423 2.53319026,31 L2.53319026,93 L72.5331903,93 L72.5331903,31 C72.5331903,14.9837423 59.549448,2 43.5331903,2 L31.5331903,2 Z" stroke-linejoin="square"></path>
+                            </g>
+                            <path d="M4.52710548,73.5 L28.0331903,73.5 C29.8741394,73.5 31.5408061,71.6140351 33.0331903,67.8421053 C39.6998569,48.8024776 43.0331903,38.2410741 43.0331903,36.1578947 C43.0331903,33.0331258 40.794614,30.5 38.0331903,30.5 L4.03319026,30.5 L4.52710548,73.5 Z" id="Path" fill="#CBAAF2"></path>
+                        </g>
+                        <path d="M112,102 L112,93 L3,93 C2.44771525,93 2,93.4477153 2,94 L2,101 C2,101.552285 2.44771525,102 3,102 L112,102 Z" id="Rectangle" stroke="#852AFF" stroke-width="4" fill="#F2E8FF" fill-rule="evenodd"></path>
+                        <g id="mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(9.000000, 30.000000)">
+                            <path d="M9.77621784,5.5 C3.83077196,22.3246 0.738699346,31.6579333 0.5,33.5 C0.141950981,36.2631 2.73857625,38.5 5.5,38.5 L53.5,38.5 C55.3409492,38.5 57.0076158,36.8333333 58.5,33.5 C65.1666667,16.6742825 68.5,7.34094917 68.5,5.5 C68.5,2.73857625 66.2614237,0.5 63.5,0.5 L15.5,0.5 C12.7385763,0.5 10.5628634,2.76328813 9.77621784,5.5 Z" id="Path" stroke="#852AFF" stroke-width="3" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M11.6543034,4.939 L32.4789256,21.6791936 C33.0990437,22.1776851 33.9556596,22.2611962 34.6603815,21.8918629 L67.008,4.939 L66.0041,2.79139162 L33.7799386,18.6217477 L12.662581,2.79139162 L11.6543034,4.939 Z" id="Path" fill="#E7D4FF"></path>
+                            <polyline id="Path" stroke="#852AFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="11.967 1.967 33.5 19.5 67.008 1.939"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <path d="M216,53 L227,53 L227,92 C227,94.209139 225.209139,96 223,96 L220,96 C217.790861,96 216,94.209139 216,92 L216,53 Z" id="Rectangle" fill="#CBAAF2" mask="url(#mask-5)"></path>
+                <path d="M216,10 C214.895431,10 214,10.8954305 214,12 L214,94 C214,95.1045695 214.895431,96 216,96 L221,96 C222.104569,96 223,95.1045695 223,94 L223,35 C223,31.6862915 225.686292,29 229,29 L242.215943,29 C243.320513,29 244.215943,28.1045695 244.215943,27 L244.215943,12 C244.215943,10.8954305 243.320513,10 242.215943,10 L216,10 Z" id="Rectangle" stroke="#852AFF" stroke-width="4" fill="#A96AFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

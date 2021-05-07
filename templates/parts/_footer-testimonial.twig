@@ -1,0 +1,30 @@
+<div class="last-cta-box -with-testimonial wrapper">
+
+    <div class="testimonial-small">
+
+        <i class="icon-five-stars"></i>
+
+        <blockquote class="quote">"{{ footerTestimonial.quote }}"</blockquote>
+
+        <cite class="testimonial-giver">
+
+            <figure class="_images">
+
+                {% for image in footerTestimonial.imagesPerson.all() %}
+
+                    <img class="_tiny-thumbnail" src="{{ image.getUrl('tinyPersonThumbnail') }}" alt="{{ footerTestimonial.person }}">
+
+                {% endfor %}
+
+            </figure>
+
+            <strong>{{ footerTestimonial.person }}</strong> - {{ footerTestimonial.location }}
+
+        </cite>
+    </div>
+
+    <div class="_buttons">
+        <a href="signup" class="button-full" title="Try Us Free Now!">Try Us Free Now!</a>
+        <a href="{{ videolink }}" data-width="640" data-ratio="16:9" data-fancybox class="button-simple" title="Watch the Video">Watch the Video <i class="icon-forward-arrow"><span class="last"></span></i></a>
+    </div>
+</div>

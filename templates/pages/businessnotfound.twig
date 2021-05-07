@@ -1,0 +1,34 @@
+{% extends 'skeleton.twig' %}
+
+{% set globalTitle = 'Business not found - Studio Bookings' %}
+
+{% set metaTitle = globalTitle  %}
+
+{% set ogTitle = globalTitle %}
+
+{% set twitterTitle = globalTitle %}
+
+{% block mainContent %}
+
+   <section class="error-content">
+
+       <div class="medium-wrapper align-center">
+
+           <h2 class="headline-size-2 align-center">{{ entry.introHeadline }}</h2>
+
+           <div class="wysiwyg-content align-center">{{ entry.wysiwygContent }}</div>
+
+           <a href="/" title="Go To Home Page" class="button-full">
+               Go To Home Page
+           </a>
+
+       </div>
+
+   </section>
+
+{% endblock %}
+
+
+{# replace the normal cta block with .. nothing! poof!#}
+{% block lastcta %}{% endblock %}
+

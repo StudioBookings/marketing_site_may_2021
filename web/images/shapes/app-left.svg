@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="844px" height="575px" viewBox="0 0 844 575" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="85.9038871%" y1="36.9939922%" x2="5.53087168%" y2="62.2722148%" id="linearGradient-1">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="85.9038871%" y1="23.8613766%" x2="5.53087168%" y2="74.6638943%" id="linearGradient-2">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-479.000000, -3146.000000)">
+            <g id="Section/App" transform="translate(135.000000, 2965.000000)">
+                <g id="Mockup">
+                    <g id="Group-11" transform="translate(238.386106, 0.117317)">
+                        <path d="M393.732916,182.016854 C431.642224,181.202644 467.471942,210.07583 446.725109,228.207472 C424.032973,248.039207 360.709803,243.357964 352.838053,224.146674 C340.915194,195.048505 355.823608,182.831063 393.732916,182.016854 Z" id="Path-11" fill="url(#linearGradient-1)" opacity="0.100000001" transform="translate(400.821440, 211.500000) rotate(-173.000000) translate(-400.821440, -211.500000) "></path>
+                        <path d="M792.038822,785.730956 C745.768257,851.936243 638.630448,836.250911 470.625395,738.67496 C218.617816,592.311034 38.2881713,466.593678 137.883587,262.107703 C237.479002,57.6217286 560.209354,331.813538 766.454947,414.868587 C939.874894,484.704757 948.402853,608.325547 792.038822,785.730956 Z" id="Path-4" fill="url(#linearGradient-2)" transform="translate(506.623333, 506.892121) scale(-1, 1) rotate(-45.000000) translate(-506.623333, -506.892121) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>c-remove</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="input-field-error" transform="translate(-334.000000, -43.000000)" fill-rule="nonzero">
+            <g id="input-field">
+                <g id="c-remove" transform="translate(334.000000, 43.000000)">
+                    <path d="M10,0 C4.4771525,-3.38176876e-16 6.76353751e-16,4.4771525 0,10 C-6.76353751e-16,15.5228475 4.4771525,20 10,20 C15.5228475,20 20,15.5228475 20,10 C19.9839811,4.48380139 15.5161986,0.0160189315 10,0 Z" id="Path" fill="#FF5572"></path>
+                    <path d="M11.0142018,4.32051835 L10.795452,11.4448013 L9.22940232,11.4448013 L9.01562412,4.32051835 L11.0142018,4.32051835 Z M9.99999818,15.6365597 C9.33380563,15.6365597 8.87641971,15.164259 8.87641971,14.5527539 C8.87641971,13.9362772 9.33380563,13.4590049 9.99999818,13.4590049 C10.6612191,13.4590049 11.1335198,13.9362772 11.1335198,14.5527539 C11.1335198,15.164259 10.6612191,15.6365597 9.99999818,15.6365597 Z" id="!" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

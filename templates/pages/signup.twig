@@ -1,0 +1,77 @@
+{% extends 'skeleton.twig' %}
+
+{% set globalTitle = 'Signup - StudioBookingsOnline' %}
+
+{% set metaTitle = globalTitle  %}
+
+{% set ogTitle = globalTitle %}
+
+{% set twitterTitle = globalTitle %}
+
+{% block mainContent %}
+
+   <section class="signup">
+
+       <div class="small-wrapper">
+
+           <h1 class="headline-size-2 align-center">{{ entry.introHeadline }}</h1>
+           <p class="align-center">{{ entry.introText }}</p>
+
+           <form class="signup-form js-on-the-fly-validation" data-parsley-validate action="https://studiobookingsonline.com/business/signup/freetrial" method="POST">
+               <input type="hidden" name="token" value="{{ craft.booking.getToken }}">
+               <input type="hidden" name="redriect_url" value="https://studiobookings.com/signup/success"> 
+               <h3 class="headline-size-4">Personal Information</h3>
+
+               <label class="label" for="firstName">First Name</label>
+               <input class="input" type="text" placeholder="John" name="first_name" id="firstName" required data-parsley-error-message="First name is required">
+
+               <label class="label" for="lastName">Last Name</label>
+               <input class="input" type="text" placeholder="Doe" name="last_name" id="lastName" required data-parsley-error-message="Last name is required">
+
+               <label class="label" for="business">Business Name</label>
+               <input class="input" type="text" placeholder="Studio XYZ" name="business_name" id="business" required data-parsley-error-message="A business name is required">
+
+               <label class="label" for="website">Business Website</label>
+               <input class="input" type="url" placeholder="www.website.com" name="business_site_url" id="website" required>
+
+               <h3 class="headline-size-4">Account</h3>
+
+               <label class="label" for="email">Your Email</label>
+               <input class="input" type="email" placeholder="johndoe@email.com" name="email" id="email" required data-parsley-error-message="A valid email address is required">
+
+               <label class="label" for="password">
+                   Password
+                   <span class="help-bubble">
+                       <i class="_icon">?</i>
+                       <span class="_bubble">Password must be at least 8 characters.</span>
+                   </span>
+               </label>
+               <input class="input" type="password" minlength="8" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" name="password" id="password" required data-parsley-error-message="Password must be at least 8 characters.">
+
+               <input class="customdisp" name="field_name" type="text">               
+
+               <p class="form-notice">{{ entry.formNotice }}</p>
+
+               <p class="form-notice wysiwyg-content">By clicking 'Sign up' you are in agreement with our <a href="terms-of-use" title="Terms of Use" target="_blank">Terms of Use</a>.</p>
+
+               <div class="align-center">
+                   <button type="submit" class="button-full"><i class="icon-lock-filled"></i>Sign Up</button>
+               </div>
+
+           </form>
+       </div>
+
+   </section>
+
+{% endblock %}
+
+
+{# replace the normal cta block with .. nothing! poof!#}
+{% block lastcta %}{% endblock %}
+
+{% block footerscripts %}
+    {{  parent()  }}
+    <style>
+        .customdisp{display: none}
+    </style>
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends 'skeleton.twig' %}
+
+{% set globalTitle = entry.metaTitle %}
+{% set globalDescripton = entry.metaDescription %}
+
+{% set metaTitle = globalTitle  %}
+{% set metaDescription = globalDescripton %}
+
+{% set ogTitle = globalTitle %}
+{% set ogDescription = globalDescripton %}
+{% set ogImage = 'images/og/studiobookings-features.png' %}
+
+{% set twitterTitle = globalTitle %}
+{% set twitterDescription = globalDescripton %}
+
+
+{% block mainContent %}
+
+    <section class="feature-intro -customimage">
+
+        <img src="{{ entry.headerImage.one().getUrl() }}" alt="{{  entry.introHeadline }} Illustration" class="shapecutout">
+
+        <div class="wrapper">
+
+            <h1 class="headline-size-1 intro-headline">{{ entry.introHeadline }}</h1>
+
+            <p class="_text intro-text">{{ entry.introText }}</p>
+
+
+            <div class="highlight-number -double {{ entry.featureColorScheme }}">
+                <div class="grid-box">
+                    <p>Get <span class="_number">10x</span> the value of other systems</p>
+                </div>
+
+                <div class="grid-box">
+                    <p>Just <span class="_number">25%</span> of the cost</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    {% set basePage = entry.basePage.one() %}
+
+    {% embed 'parts/_features-content.twig' with {'content':basePage}  %}
+
+        {% block scheduleintro %}
+
+            <h2 class="headline-size-2 align-center">{{ entry.headline }}</h2>
+
+            <p class="align-center medium-wrapper">{{ entry.simpleContent }}</p>
+
+        {% endblock %}
+
+    {% endembed %}
+
+
+{% endblock %}
+
+
+
+{% block lastcta %}
+
+    {% set footerTestimonial = entry.basePage.one().footerTestimonial.one() %}
+
+    {% include 'parts/_footer-testimonial.twig' with footerTestimonial  %}
+
+{% endblock %}

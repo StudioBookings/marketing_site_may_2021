@@ -1,0 +1,274 @@
+{% extends 'skeleton.twig' %}
+
+{% block mainContent %}
+
+    <section class="intro">
+
+        <div class="wrapper">
+
+            <h1 class="headline-size-1 intro-headline">{{ entry.introHeadline }}</h1>
+
+            <p class="intro-text">{{ entry.introText }}</p>
+
+            <strong class="try-us-out">
+                <span class="icon-medal">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                </span>
+                <span class="blue-text">100% Free</span>
+                for 14 Days to try us out
+
+                <small class="_small">No credit card required</small>
+            </strong>
+
+            <a href="pricing" title="View our pricing" class="button-full">View our pricing</a>
+            <a href="{{ videolink }}" data-width="640" data-ratio="16:9" data-fancybox class="button-simple" title="Watch the Video">Watch the Video <i class="icon-forward-arrow"><span class="last"></span></i></a>
+
+        </div>
+
+        <div class="intro-testimonial wrapper">
+
+            {%  set introTestimonial = entry.introTestimonial.one() %}
+
+            <div class="testimonial-small -centered">
+
+                <i class="icon-five-stars"></i>
+
+                <blockquote class="quote">"{{ introTestimonial.quote }}"</blockquote>
+
+                <cite class="testimonial-giver">
+
+                    <figure class="_images">
+
+                        {% for image in introTestimonial.imagesPerson.all() %}
+
+                            <img class="_tiny-thumbnail" src="{{ image.getUrl('tinyPersonThumbnail') }}" alt="{{ introTestimonial.person }}">
+
+                        {% endfor %}
+
+                    </figure>
+
+                    <strong>{{ introTestimonial.person }}</strong> - {{ introTestimonial.location }}
+
+                </cite>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="features">
+
+        <h2 class="headline-size-2 align-center">{{ entry.featuresHeadline }}</h2>
+
+        <p class="align-center small-wrapper spacy-paragraph">{{ entry.featuresText }}</p>
+
+        {%  set featuresSelection = entry.featuresSelection.all() %}
+
+        <div class="wrapper">
+            <div class="grid-wrapper">
+
+            {% for featureCategory in featuresSelection %}
+
+                <div class="grid-box feature-type">
+
+                    <i class="big-feature-icon {{ featureCategory.featureIcon }} {{ featureCategory.featureColorScheme }}"></i>
+
+                    <h3 class="headline-size-4 align-center">{{ featureCategory.title }}</h3>
+
+                    <p class="_description">{{ featureCategory.featureDescription }}</p>
+                </div>
+
+            {% endfor %}
+            </div>
+        </div>
+
+    </section>
+
+    <section class="fullwidth-banner">
+
+        <div class="banner-wrapper">
+
+            <div class="_content">
+
+            {%  set bannerTestimonial = entry.bannerTestimonial.one() %}
+
+                <div class="testimonial-small">
+
+                    <i class="icon-five-stars"></i>
+
+                    <blockquote class="quote">"{{ bannerTestimonial.quote }}"</blockquote>
+
+                    <cite class="testimonial-giver">
+
+                        <figure class="_images">
+
+                            {% for image in bannerTestimonial.imagesPerson.all() %}
+
+                            <img class="_tiny-thumbnail" src="{{ image.getUrl('tinyPersonThumbnail') }}" alt="{{ bannerTestimonial.person }}">
+
+                            {% endfor %}
+
+                        </figure>
+
+                        <strong>{{ bannerTestimonial.person }}</strong> - {{ bannerTestimonial.location }}
+
+                    </cite>
+
+                </div>
+
+                <div>
+
+                    <a href="signup" title="Try us free for 14 days!" class="button-full -white">Try us free for 14 days!</a>
+
+                    <a href="pricing" class="button-simple -white" title="View our pricing">View our pricing <i class="icon-forward-arrow"><span class="last"></span></i></a>
+
+                </div>
+
+            </div>
+
+            <figure class="laptop-screenshot-box">
+
+                <img class="_screenshot" src="images/screenshots/homepage.jpg" alt="Screenshot of our software">
+
+
+            </figure>
+
+        </div>
+
+    </section>
+
+
+    <section class="wrapper pricing">
+
+        <div class="align-center">
+            <h4 class="preheadline -dot -purple">{{ entry.pricingPreheadline }}</h4>
+            <h2 class="headline-size-2">{{ entry.pricingHeadline }}</h2>
+            <p>{{ entry.pricingText }}</p>
+
+            <div class="big-pricing-box">
+                <div class="_price">
+                    <span class="preheadline -medium">Prices begin at</span>
+                    <p class="dollars">$45</p>
+                    <p>monthly<br/>$25 USD for solo owner/teacher</p>
+                </div>
+
+                <div class="_features wysiwyg-content">
+
+                    <h3 class="headline-size-4">Included Features:</h3>
+
+                    {{ entry.pricingFeatures }}
+
+                </div>
+            </div>
+
+            <a class="button-full" href="pricing" title="View our Pricing">View our Pricing</a>
+        </div>
+
+    </section>
+
+
+    <section class="app">
+
+        <div class="wrapper">
+
+            <figure class="device-mockup">
+
+                <img src="images/iphone-applewatch.png" alt="Our App for your studio supports Apple Watch">
+
+            </figure>
+
+            <div class="app-info">
+                <h2 class="headline-size-2">{{ entry.appHeadline }}</h2>
+
+                <p class="spacy-paragraph">{{ entry.appText }}</p>
+
+                <div class="wysiwyg-content">{{ entry.appBenefits }}</div>
+
+                <a href="{{ appstorelink }}" title="Get the app the on App Store" class="store-button">
+                    <img src="images/appstore-button.svg" alt="App Store">
+                </a>
+
+                <a href="{{ playstorelink }}" title="Get the app on Google Play" class="store-button">
+                    <img src="images/playstore-button.svg" alt="Google Play">
+                </a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about-us medium-wrapper">
+
+        <h5 class="preheadline -dot -red">{{ entry.aboutUsPreheadline }}</h5>
+        <h2 class="headline-size-2">{{ entry.aboutUsHeadline }}</h2>
+        <p class="spacy-paragraph">{{ entry.aboutUsText }}</p>
+
+
+    </section>
+
+    <section class="testimonial-slider-wrapper">
+
+        <h2 class="headline-size-2 align-center">{{ entry.testimonialHeadline }}</h2>
+
+        {% set testimonials = entry.testimonialSlider.all() %}
+
+        <div class="testimonial-slider">
+
+            {% for testimonial in testimonials %}
+
+            <div class="testimonial-large">
+
+                <figure class="_images">
+
+                    {% for image in testimonial.imagesPerson.all() %}
+
+                        <img class="_medium-thumbnail" src="{{ image.getUrl('personThumbnail') }}" alt="{{ testimonial.person }}">
+
+                    {% endfor %}
+
+                </figure>
+
+                <i class="icon-five-stars"></i>
+
+                <blockquote class="quote">"{{ testimonial.quote }}"</blockquote>
+
+                <cite class="testimonial-giver"><strong>{{ testimonial.person }}</strong> - {{ testimonial.location }}</cite>
+
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+    {% set statistics = craft.entries.section('statistics').all() %}
+
+    <section class="grey-background statistics">
+
+        <div class="wrapper">
+
+            <div class="grid-wrapper">
+
+                {% for stat in statistics %}
+
+                <div class="grid-box">
+
+                    <span class="headline-size-1">{{ stat.statValue }}</span>
+
+                    <p class="_description">{{ stat.statDescription }}</p>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </section>
+
+{% endblock %}

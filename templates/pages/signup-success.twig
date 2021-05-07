@@ -1,0 +1,29 @@
+{% extends 'skeleton.twig' %}
+
+{% set globalTitle = 'Signup successful - StudioBookingsOnline' %}
+
+{% set metaTitle = globalTitle  %}
+
+{% set ogTitle = globalTitle %}
+
+{% set twitterTitle = globalTitle %}
+
+{% block mainContent %}
+
+   <section class="medium-wrapper">
+
+       <h1 class="headline-size-2 align-center">{{ entry.introHeadline }}</h1>
+
+       <p class="align-center">{{ entry.introText }}</p>
+
+       <img src="images/postbox.svg" class="postbox" alt="Postbox Illustration">
+
+       <p class="align-center smaller-font-paragraph">{{ entry.formNotice }}</p>
+
+   </section>
+
+{% endblock %}
+
+
+{# replace the normal cta block with .. nothing! poof!#}
+{% block lastcta %}{% endblock %}

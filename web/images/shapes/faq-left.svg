@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="356px" height="491px" viewBox="0 0 356 491" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="76.2910002%" y1="0%" x2="23.7089998%" y2="94.6605947%" id="linearGradient-1">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="30.7261979%" x2="0%" y2="67.2155893%" id="linearGradient-2">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000003">
+        <g id="FAQ" transform="translate(-118.000000, -293.000000)">
+            <g id="Group" transform="translate(118.000000, 293.000000)">
+                <path d="M46.7052794,7.61324487 C130.668702,-39.6290891 355.515721,143.771453 355.515721,260.613245 C355.515721,377.455037 82.8528676,534.585204 46.7052794,478.585204 C10.5576912,422.585204 -37.2581437,54.8555788 46.7052794,7.61324487 Z" id="Path-5" fill="url(#linearGradient-1)"></path>
+                <path d="M255.195975,55.6132449 C263.232897,70.7843386 300.343624,108.863245 333.356814,91.1132449 C363.361169,74.9809865 323.602582,50.2679231 307.953627,43.1602985 C292.304671,36.0526739 247.159052,40.4421512 255.195975,55.6132449 Z" id="Path-6" fill="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

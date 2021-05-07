@@ -1,0 +1,187 @@
+<section class="schedule-management">
+
+    {% block scheduleintro %}
+
+    <h2 class="headline-size-2 align-center">{{ content.scheduleHeadline }}</h2>
+
+    <p class="align-center medium-wrapper">{{ content.scheduleText }}</p>
+
+    {% endblock %}
+
+    <div class="device-and-content -right">
+
+        <figure class="_device">
+
+            <img src="images/screenshots/schedule-management.png" alt="Easy Class Management with Studio Bookings">
+        </figure>
+
+        <div class="_content">
+
+            {% for box in content.scheduleBoxes.all() %}
+
+                <div class="multipurpose-box">
+                    <i class="{{ box.icon }} -purple _icon"></i>
+                    <h3 class="headline-size-4">{{ box.headline }}</h3>
+                    <p class="_text">{{ box.simpleContent }}</p>
+                </div>
+
+            {% endfor %}
+        </div>
+
+    </div>
+
+    <div class="small-wrapper align-center">
+
+        <a href="signup" title="Start Your Free Trial" class="button-full -purple">Start Your Free Trial</a>
+
+        <p class="lock-text">A credit card is not required to try us out</p>
+
+    </div>
+
+</section>
+
+<section class="member-management">
+
+    <figure class="centered-mockup">
+        <img class="_macbook" src="images/screenshots/member-management.png" alt="Easy Member Management with Studio Bookings">
+        <img class="_phone" src="images/iphone-members-management.png" alt="Included App for iPhone and Android">
+    </figure>
+
+    <h2 class="headline-size-2 align-center">{{ content.membersHeadline }}</h2>
+
+    <p class="medium-wrapper align-center">{{ content.membersText }}</p>
+
+    <div class="wrapper">
+
+        <div class="grid-wrapper">
+            {% for box in content.memberBoxes.all() %}
+
+                <div class="grid-box multipurpose-box">
+                    <i class="{{ box.icon }} _icon"></i>
+                    <h3 class="headline-size-4">{{ box.headline }}</h3>
+                    <p class="_text">{{ box.simpleContent }}</p>
+                </div>
+
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="small-wrapper align-center">
+        <div class="button-and-notice">
+            <a href="signup" title="Start Your Free Trial" class="button-full -white">Start Your Free Trial</a>
+
+            <p class="lock-text">A credit card is not required to try us out</p>
+        </div>
+
+        <a href="pricing" title="View Our Pricing" class="button-simple -white">View Our Pricing <i class="icon-forward-arrow"><span class="last"></span></i></a>
+
+    </div>
+
+</section>
+
+{%  set testimonial = content.introTestimonial.one() %}
+
+<div class="testimonial-small -centered">
+
+    <i class="icon-five-stars"></i>
+
+    <blockquote class="quote">"{{ testimonial.quote }}"</blockquote>
+
+    <cite class="testimonial-giver">
+
+        <figure class="_images">
+
+            {% for image in testimonial.imagesPerson.all() %}
+
+                <img class="_tiny-thumbnail" src="{{ image.getUrl('tinyPersonThumbnail') }}" alt="{{ testimonial.person }}">
+
+            {% endfor %}
+
+        </figure>
+
+        <strong>{{ testimonial.person }}</strong> - {{ testimonial.location }}
+
+    </cite>
+
+</div>
+
+<section class="studio-management">
+
+    <h2 class="headline-size-2 align-center">{{ content.studioHeadline }}</h2>
+
+    <p class="align-center small-wrapper">{{ content.studioText }}</p>
+
+    <div class="device-and-content">
+
+        <div class="_content">
+
+            {% for box in content.studioBoxes.all() %}
+
+                <div class="multipurpose-box">
+                    <i class="{{ box.icon }} -green _icon"></i>
+                    <h3 class="headline-size-4">{{ box.headline }}</h3>
+                    <p class="_text">{{ box.simpleContent }}</p>
+                </div>
+
+            {% endfor %}
+        </div>
+
+        <figure class="_device">
+
+            <img src="images/screenshots/studio-management.png" alt="Easy Studio Management with Studio Bookings">
+        </figure>
+
+    </div>
+
+    <div class="small-wrapper align-center">
+        <div class="button-and-notice">
+            <a href="signup" title="Start Your Free Trial" class="button-full -green">Start Your Free Trial</a>
+
+            <p class="lock-text">A credit card is not required to try us out</p>
+        </div>
+
+        <a href="{{ videolink }}" data-width="640" data-ratio="16:9" data-fancybox title="Watch the Video" class="button-simple -green">Watch the Video <i class="icon-forward-arrow"><span class="last"></span></i></a>
+
+    </div>
+
+</section>
+
+<section class="all-features">
+
+    <div class="small-wrapper">
+
+        <h2 class="headline-size-2 align-center">{{ content.allFeaturesHeadline }}</h2>
+
+        <p class="align-center">{{ content.allFeaturesText }}</p>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="grid-wrapper">
+
+            {% for featureCategory in craft.entries.section('features').all() %}
+
+                <div class="grid-box -third">
+
+                    <h4 class="headline-size-3-5">{{ featureCategory.featureFullTitle }}</h4>
+
+
+                    <div class="wysiwyg-content">
+                        {{ featureCategory.featureList }}
+                    </div>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+    <div class="medium-wrapper">
+
+        <h3 class="headline-size-3 align-center">{{ content.headline }}</h3>
+        <div class="wysiwyg-content small-print align-center">{{ content.smallPrint }}</div>
+    </div>
+
+</section>

@@ -1,0 +1,196 @@
+{% extends 'skeleton.twig' %}
+
+{% set globalTitle = 'APP - StudioBookingsOnline' %}
+
+{% set metaTitle = globalTitle  %}
+
+{% set ogTitle = globalTitle %}
+{% set ogImage = 'images/og/studiobookings-app.png' %}
+
+{% set twitterTitle = globalTitle %}
+
+
+{% block mainContent %}
+
+    <section class="app">
+
+        <div class="wrapper">
+
+            <div class="app-info">
+                <h1 class="headline-size-1">{{ entry.appHeadline }}</h1>
+
+                <p class="spacy-paragraph">{{ entry.appText }}</p>
+
+                <div class="wysiwyg-content -app-specfic">{{ entry.appBenefits }}</div>
+
+                <a href="{{ appstorelink }}" title="Get the app on the App Store" class="store-button">
+                    <img src="images/appstore-button.svg" alt="App Store">
+                </a>
+
+                <a href="{{ playstorelink }}" title="Get the app on Google Play" class="store-button">
+                    <img src="images/playstore-button.svg" alt="Google Play">
+                </a>
+
+            </div>
+
+            <figure class="device-mockup -right">
+
+                <img src="images/iphone-applewatch-2.png" alt="Our App for your studio supports Apple Watch">
+
+            </figure>
+        </div>
+
+    </section>
+
+    <div class="intro-testimonial wrapper">
+
+        {%  set introTestimonial = entry.introTestimonial.one() %}
+
+        <div class="testimonial-small -centered">
+
+            <i class="icon-five-stars"></i>
+
+            <blockquote class="quote">"{{ introTestimonial.quote }}"</blockquote>
+
+            <cite class="testimonial-giver">
+
+
+                <figure class="_images">
+
+                    {% for image in introTestimonial.imagesPerson.all() %}
+
+                        <img class="_tiny-thumbnail" src="{{ image.getUrl('tinyPersonThumbnail') }}" alt="{{ introTestimonial.person }}">
+
+                    {% endfor %}
+
+                </figure>
+
+                <strong>{{ introTestimonial.person }}</strong> - {{ introTestimonial.location }}
+
+            </cite>
+
+        </div>
+
+    </div>
+
+    <section class="reduced-wrapper app-highlights">
+
+        <div class="grid-wrapper">
+            {% for box in entry.appHighlights.all() %}
+
+                <div class="grid-box -half multipurpose-box">
+                    <i class="{{ box.icon }} -green _icon"></i>
+                    <h3 class="headline-size-4">{{ box.headline }}</h3>
+                    <p class="_text">{{ box.simpleContent }}</p>
+                </div>
+
+            {% endfor %}
+        </div>
+
+        <div class="small-wrapper align-center">
+            <div class="button-and-notice">
+                <a href="signup" title="Try us Free For 14 Days" class="button-full -green">Try us Free For 14 Days</a>
+
+                <p class="lock-text">A credit card is not required to try us out</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="app-keyart">
+
+        <h2 class="align-center headline-size-2 medium-wrapper">{{ entry.headline }}</h2>
+
+        <img src="images/watches.jpg" alt="Our App is compatible with Apple Watch" class="big-watches-keyart">
+
+        <div class="small-wrapper align-center">
+            <div class="button-and-notice">
+                <a href="signup" title="Try us Free For 14 Days" class="button-full -red">Try us Free For 14 Days</a>
+
+                <p class="lock-text">A credit card is not required to try us out</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="intro-testimonial wrapper">
+
+        {%  set bannerTestimonial = entry.bannerTestimonial.one() %}
+
+        <div class="testimonial-small -centered">
+
+            <i class="icon-five-stars"></i>
+
+            <blockquote class="quote">"{{ bannerTestimonial.quote }}"</blockquote>
+
+            <cite class="testimonial-giver">
+                <figure class="_images">
+
+                    {% for image in bannerTestimonial.imagesPerson.all() %}
+
+                        <img class="_tiny-thumbnail" src="{{ image.getUrl('tinyPersonThumbnail') }}" alt="{{ bannerTestimonial.person }}">
+
+                    {% endfor %}
+
+                </figure>
+
+                <strong>{{ bannerTestimonial.person }}</strong> - {{ bannerTestimonial.location }}
+
+            </cite>
+
+        </div>
+
+    </div>
+
+
+    <section class="fullwidth-banner -phones">
+
+        <div class="banner-wrapper">
+
+            <div class="_content">
+
+                <h2 class="headline-size-2">{{ entry.bannerHeadline }}</h2>
+
+                <p>{{ entry.bannerText }}</p>
+
+                <div>
+                    <a href="{{ appstorelink }}" title="Get the app on the App Store" class="store-button">
+                        <img src="images/appstore-button.svg" alt="App Store">
+                    </a>
+
+                    <a href="{{ playstorelink }}" title="Get the app on Google Play" class="store-button">
+                        <img src="images/playstore-button.svg" alt="Google Play">
+                    </a>
+                </div>
+
+            </div>
+
+
+            <figure class="floating-iphones">
+
+                <img class="_phones" src="images/floating-iphones.png" alt="Free App for you and your customers">
+
+
+            </figure>
+
+        </div>
+
+    </section>
+
+
+{% endblock %}
+
+
+{% block lastcta %}
+    <div class="last-cta-box wrapper">
+
+        <h2 class="headline-size-3">{{ entry.footerHeadline }}</h2>
+
+        <div class="_buttons">
+            <a href="signup" class="button-full" title="Try Us Free Now!">Try Us Free Now!</a>
+            <a href="{{ videolink }}" data-width="640" data-ratio="16:9" data-fancybox class="button-simple" title="Watch the Video">Watch the Video <i class="icon-forward-arrow"><span class="last"></span></i></a>
+        </div>
+    </div>
+{% endblock %}

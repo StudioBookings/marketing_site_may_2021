@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="401px" height="742px" viewBox="0 0 401 742" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="35.3896686%" y1="100%" x2="64.6103314%" y2="3.74939946e-31%" id="linearGradient-1">
+            <stop stop-color="#82F0A9" offset="0%"></stop>
+            <stop stop-color="#27CB86" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="33.7496751%" y1="100%" x2="66.2503249%" y2="3.74939946e-31%" id="linearGradient-2">
+            <stop stop-color="#82F0A9" offset="0%"></stop>
+            <stop stop-color="#27CB86" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQ" transform="translate(-819.000000, -1179.000000)">
+            <g id="Group-2" transform="translate(819.000000, 1179.000000)">
+                <path d="M184.926904,721.85288 C89.2527828,639.847481 -60.6555668,406.85288 25.977148,293.85288 C112.609863,180.85288 220.86338,-31.1471197 272.770556,3.85288027 C324.677732,38.8528803 416.352052,325.573716 398.700229,469.85288 C381.048406,614.132045 280.601025,803.85828 184.926904,721.85288 Z" id="Path-7" fill="url(#linearGradient-1)" opacity="0.200000003"></path>
+                <path d="M36.3674046,218.85288 C63.9493361,201.172528 99.3034901,141.85288 99.3034901,99.8528803 C99.3034901,57.8528803 47.2834481,113.227184 36.3674046,133.867317 C25.4513611,154.50745 8.78547309,236.533233 36.3674046,218.85288 Z" id="Path-8" fill="url(#linearGradient-2)" opacity="0.300000012"></path>
+            </g>
+        </g>
+    </g>
+</svg>

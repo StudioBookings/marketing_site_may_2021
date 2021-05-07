@@ -1,0 +1,80 @@
+{% extends 'skeleton.twig' %}
+
+{% set globalTitle = 'FAQ - StudioBookings | Yoga management software| Yoga studio software' %}
+{% set globalDescripton = 'StudioBookingsOnline is a web-based system that makes it possible for fitness and wellness studios to access and manage their studio and members online.' %}
+
+{% set metaTitle = globalTitle  %}
+{% set metaDescription = globalDescripton %}
+
+{% set ogTitle = globalTitle %}
+{% set ogDescription = globalDescripton %}
+
+{% set twitterTitle = globalTitle %}
+{% set twitterDescription = globalDescripton %}
+
+{% block mainContent %}
+
+   <section class="all-faq">
+
+       <div class="medium-wrapper">
+
+           <h1 class="headline-size-1 align-center">{{ entry.introHeadline }}</h1>
+           <p class="align-center _intro-text">{{ entry.introText }}</p>
+
+
+           {% set faqs = craft.entries.section('faqs').all() %}
+
+           {% for faq in faqs %}
+
+           <article class="faq-entry" data-accordeon="faq">
+
+               <h3 class="headline-size-4" data-accordeon-button>{{ faq.question }}</h3>
+
+               <p data-accordeon-content>{{ faq.answer }}</p>
+
+           </article>
+
+
+           {% endfor %}
+
+       </div>
+
+   </section>
+
+{% endblock %}
+
+
+{% block lastcta %}
+    <div class="last-cta-box -with-testimonial wrapper">
+
+        {% set testimonial = entry.introTestimonial.one() %}
+
+        <div class="testimonial-small">
+
+            <i class="icon-five-stars"></i>
+
+            <blockquote class="quote">"{{ testimonial.quote }}"</blockquote>
+
+            <cite class="testimonial-giver">
+
+                <figure class="_images">
+
+                    {% for image in testimonial.imagesPerson.all() %}
+
+                        <img class="_tiny-thumbnail" src="{{ image.getUrl('tinyPersonThumbnail') }}" alt="{{ testimonial.person }}">
+
+                    {% endfor %}
+
+                </figure>
+
+                <strong>{{ testimonial.person }}</strong> - {{ testimonial.location }}
+
+            </cite>
+        </div>
+
+        <div class="_buttons">
+            <a href="signup" class="button-full" title="Try Us Free Now!">Try Us Free Now!</a>
+            <a href="{{ videolink }}" data-width="640" data-ratio="16:9" data-fancybox class="button-simple" title="Watch the Video">Watch the Video <i class="icon-forward-arrow"><span class="last"></span></i></a>
+        </div>
+    </div>
+{% endblock %}

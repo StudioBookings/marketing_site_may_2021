@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="851px" height="538px" viewBox="0 0 851 538" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="85.9038871%" y1="36.9939922%" x2="5.53087168%" y2="62.2722148%" id="linearGradient-1">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="85.9038871%" y1="23.8613766%" x2="5.53087168%" y2="74.6638943%" id="linearGradient-2">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="App" transform="translate(-270.000000, -289.000000)">
+            <g id="Section/Header" transform="translate(135.000000, 57.000000)">
+                <g id="Mockup" transform="translate(79.000000, 0.000000)">
+                    <g id="Group-5">
+                        <path d="M93.9114765,700.037242 C131.820785,699.223033 167.650502,728.096219 146.903669,746.227861 C124.211533,766.059595 60.888363,761.378352 53.0166133,742.167062 C41.0937543,713.068894 56.0021684,700.851452 93.9114765,700.037242 Z" id="Path-11" fill="url(#linearGradient-1)" opacity="0.100000001" transform="translate(101.000000, 729.520389) rotate(-150.000000) translate(-101.000000, -729.520389) "></path>
+                        <path d="M791.641606,785.820912 C745.371042,852.0262 638.233233,836.340868 470.22818,738.764917 C218.220601,592.400991 37.8909561,466.683634 137.486372,262.19766 C237.081787,57.7116852 559.812139,331.903495 766.057731,414.958544 C939.477679,484.794714 948.005637,608.415503 791.641606,785.820912 Z" id="Path-4" fill="url(#linearGradient-2)" transform="translate(506.226118, 506.982078) rotate(-45.000000) translate(-506.226118, -506.982078) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

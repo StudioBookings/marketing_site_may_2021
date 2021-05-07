@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="342px" height="356px" viewBox="0 0 342 356" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="72.340101%" y1="9.58834232%" x2="22.3304383%" y2="88.1316505%" id="linearGradient-1">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="85.9038871%" y1="12.8858213%" x2="5.53087168%" y2="85.0202138%" id="linearGradient-2">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-124.000000, -481.000000)">
+            <g id="Section/Header" transform="translate(124.000000, 50.000000)">
+                <g id="Group-10" transform="translate(0.000000, 431.000000)">
+                    <path d="M17.4634827,44.9971734 C53.1800456,-14.2724189 122.282341,-18.8113198 198.396632,54.3874372 C258.816941,112.493364 214.09972,119.267698 272.088523,225.993174 C330.077326,332.71865 79.2595361,407.01285 42.716069,312.730423 C6.17260198,218.447995 -18.2530803,104.266766 17.4634827,44.9971734 Z" id="Path-10" fill="url(#linearGradient-1)"></path>
+                    <path d="M284.215138,116.222656 C303.628595,103.273193 348.606179,95.8981165 348.606179,128.098781 C348.606179,139.039815 339.024351,163.425934 318.476718,181.379174 C296.002459,201.015779 263.875656,202.92722 256.079487,183.904955 C244.271105,155.09309 264.801682,129.17212 284.215138,116.222656 Z" id="Path-11" fill="url(#linearGradient-2)" opacity="0.100000001" transform="translate(300.606179, 151.186812) rotate(-75.000000) translate(-300.606179, -151.186812) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

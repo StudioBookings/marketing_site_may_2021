@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="408px" height="346px" viewBox="0 0 408 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="14.1049285%" x2="1.61204453%" y2="84.7377824%" id="linearGradient-1">
+            <stop stop-color="#8834FF" offset="0%"></stop>
+            <stop stop-color="#C96DFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Additional-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g id="No-Business-found" transform="translate(-882.000000, -243.000000)" fill="url(#linearGradient-1)" stroke="#979797">
+            <path d="M950.612208,572.093422 C889.376574,546.614584 850.078508,404.584124 920.781479,376.974976 C991.484449,349.365827 1033.94168,311.79129 1097.18283,254.283958 C1160.42397,196.776627 1345.82793,394.493337 1271.84358,499.421001 C1197.85923,604.348665 1011.84784,597.57226 950.612208,572.093422 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

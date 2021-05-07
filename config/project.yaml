@@ -1,0 +1,2186 @@
+dateModified: 1610465855
+email:
+  fromEmail: sales@studiobookingsonline.com
+  fromName: StudioBookings
+  template: null
+  transportType: craft\mail\transportadapters\Sendmail
+  transportSettings: null
+fieldGroups:
+  0667f56d-013e-42f9-bd65-4ddc9dd523f0:
+    name: FAQ
+  29d2ba4e-4aa3-48d3-b885-4d4efa6880b8:
+    name: 'Pricing Page'
+  2b880046-85d9-47ac-b3c7-594e72546a02:
+    name: Banner
+  2eec48d6-e14a-4ae8-b9b7-098bc5f814df:
+    name: Statistics
+  48fbf893-4cdd-4cab-a83a-58479041a7f9:
+    name: Testimonial
+  7eba8e76-9286-4e4a-b693-57a98ba34030:
+    name: Navigation
+  cf6a3e4f-7e8b-43f8-a5e9-4370241857b4:
+    name: Features
+  d2ebcd98-48ce-47dd-b429-e8228f74e620:
+    name: Common
+  e157059b-f5f7-4510-b495-976d7d1b4271:
+    name: 'Feature Page'
+  e6733a5b-6fcf-43ce-a981-033c98975dd1:
+    name: 'Home Page'
+  e7419426-87c4-42bf-969e-8af8cb885a8c:
+    name: App
+  807a10d7-8868-4085-8bfd-97596052e70c:
+    name: 'SEO Page'
+fields:
+  01d48807-ab20-4e39-8249-7505ae8ab0e4:
+    contentColumnType: string
+    fieldGroup: 29d2ba4e-4aa3-48d3-b885-4d4efa6880b8
+    handle: faqs
+    instructions: 'Chose up to 6 frequently asked questions you want to display here.'
+    name: FAQs
+    searchable: true
+    settings:
+      limit: '6'
+      localizeRelations: false
+      selectionLabel: 'add FAQs'
+      source: null
+      sources:
+        - 'section:ffd13bf6-fec9-4c20-9eb8-d1414ab03824'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  0781ae2b-1564-435c-944c-0e084e14ca7a:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: pricingHeadline
+    instructions: 'Put your headline for the "Pricing" section here'
+    name: 'Pricing Headline'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0bfd7dd3-d9e4-4b41-b8d2-0addd62e6d19:
+    contentColumnType: string
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: studioBoxes
+    instructions: 'Select up to 3 highlights to be displayed'
+    name: 'Boxes (Studio)'
+    searchable: true
+    settings:
+      limit: '3'
+      localizeRelations: false
+      selectionLabel: 'add box'
+      source: null
+      sources:
+        - 'section:c547fb1a-7732-4cb2-a222-0f98d07082c8'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  112602df-0180-49a2-948a-220fef66f91b:
+    contentColumnType: text
+    fieldGroup: 0667f56d-013e-42f9-bd65-4ddc9dd523f0
+    handle: question
+    instructions: 'Type your question here'
+    name: Question
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  18db0d3f-ded9-4e58-b5c6-7631587fabb0:
+    contentColumnType: text
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: simpleContent
+    instructions: 'Simple textual content'
+    name: Content
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '6'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  1b41690c-d33a-4248-93d4-2c42c120bf09:
+    contentColumnType: text
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: introText
+    instructions: 'Content for the first part of the page'
+    name: 'Intro Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: 'Write your Text here!'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  1c808958-bbfc-4421-8383-75978d09ebf9:
+    contentColumnType: text
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: scheduleText
+    instructions: ''
+    name: 'Text (Schedule)'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  1e3890f3-19f5-43e8-88bf-59d54969a5a5:
+    contentColumnType: string
+    fieldGroup: 0667f56d-013e-42f9-bd65-4ddc9dd523f0
+    handle: selectedFaqs
+    instructions: 'Select up to 6 FAQs to be displayed. The Answers get shortened.'
+    name: FAQs
+    searchable: true
+    settings:
+      limit: '6'
+      localizeRelations: false
+      selectionLabel: 'add a FAQ'
+      source: null
+      sources:
+        - 'section:ffd13bf6-fec9-4c20-9eb8-d1414ab03824'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  2856e2d3-a934-496b-90bd-08abf67da58f:
+    contentColumnType: text
+    fieldGroup: cf6a3e4f-7e8b-43f8-a5e9-4370241857b4
+    handle: featureList
+    instructions: 'It is recommended to use the bulleted list as it will be displayed with little checkmarks'
+    name: 'Feature List'
+    searchable: true
+    settings:
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  2afc4804-8ab2-4d82-9505-6a94ac8c36c9:
+    contentColumnType: text
+    fieldGroup: 0667f56d-013e-42f9-bd65-4ddc9dd523f0
+    handle: answer
+    instructions: 'No, you cannot put "42" as answer to every single question. Well, technically, you can.'
+    name: Answer
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  31ad8c62-77b5-4a01-b655-a29ad2033c0f:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: featuresSelection
+    instructions: 'Choose which types of features you want to be represented'
+    name: Features
+    searchable: true
+    settings:
+      limit: ''
+      localizeRelations: false
+      selectionLabel: 'Add Featureblock'
+      source: null
+      sources:
+        - 'section:1f30a2e7-5b94-4f88-8ca2-dce964a1e8ad'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  31bb22ce-b8d4-4f62-abd2-24a4f660dea1:
+    contentColumnType: text
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: appBenefits
+    instructions: 'Please use the bulleted list here as it gets displayed as a cool check list on the website'
+    name: 'App Benefits'
+    searchable: true
+    settings:
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  3545835d-c05a-4f64-b919-b1884164dfc7:
+    contentColumnType: text
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: membersText
+    instructions: ''
+    name: 'Text (Members)'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  360e3983-5f20-4ae2-adad-d413d0174810:
+    contentColumnType: string
+    fieldGroup: 48fbf893-4cdd-4cab-a83a-58479041a7f9
+    handle: person
+    instructions: 'Who just said that?!?!'
+    name: Person
+    searchable: true
+    settings:
+      charLimit: '200'
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: 'John Doe & his friends'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  381db379-82de-4241-b426-8e6a1df1f626:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: introTestimonial
+    instructions: 'Select one testimonial you want to show'
+    name: 'Intro Testimonial'
+    searchable: true
+    settings:
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: 'Choose testimonial'
+      source: null
+      sources:
+        - 'section:181fbd7b-76a6-4a70-894b-ed1eae2628ee'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  3a93eeed-7d4a-4efe-a9cc-a52623ce4a98:
+    contentColumnType: text
+    fieldGroup: cf6a3e4f-7e8b-43f8-a5e9-4370241857b4
+    handle: featureDescription
+    instructions: 'Some advertising words'
+    name: 'Feature Description'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3d79b2e1-11e0-4d48-9447-4db129085807:
+    contentColumnType: text
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: smallPrint
+    instructions: 'Important additional information'
+    name: 'Small Print'
+    searchable: true
+    settings:
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  4950ad9d-2554-42a8-b235-9c44fe5406b3:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: aboutUsPreheadline
+    instructions: 'Little Tag above the headline'
+    name: 'About Us Preheadline'
+    searchable: true
+    settings:
+      charLimit: '50'
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  4a6c1ed8-812b-464d-8407-905c7ad45df2:
+    contentColumnType: text
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: formNotice
+    instructions: 'Little text that explains something about the sign up process.'
+    name: Notice
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  509fa8ad-76b4-429b-8016-fcb26fbd420b:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: aboutUsHeadline
+    instructions: 'Headline for this section'
+    name: 'About Us Headline'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  51568fa7-66e5-47b1-b7f0-9c13f1b1ba73:
+    contentColumnType: string
+    fieldGroup: 48fbf893-4cdd-4cab-a83a-58479041a7f9
+    handle: imagesPerson
+    instructions: 'Show the faces of you happy customers! Make sure you have permission to do so before uploading.'
+    name: Images
+    searchable: true
+    settings:
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:1a60bd4c-68b4-4f2b-b8dd-f4fbddf8bbec'
+      defaultUploadLocationSubpath: ''
+      limit: '3'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: 'Add a dude'
+      singleUploadLocationSource: 'volume:7b1af1be-0f1c-40bf-8784-904c88f7b533'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  5163fa72-c6c6-47ad-85c3-6ba08b1db828:
+    contentColumnType: text
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: pricingFeatures
+    instructions: 'To get the "checked list" chose the bulleted list.'
+    name: 'Included Features'
+    searchable: true
+    settings:
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  5204de2c-e2d8-4fe5-a283-3099ec437c28:
+    contentColumnType: string
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: membersHeadline
+    instructions: ''
+    name: 'Headline (Members)'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  537b3879-758f-47d8-b581-219583e2aa36:
+    contentColumnType: text
+    fieldGroup: 2eec48d6-e14a-4ae8-b9b7-098bc5f814df
+    handle: statDescription
+    instructions: 'A few explanatory words about the number above'
+    name: Description
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: 'of our clients would recommend us to an unknown stranger!'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  54695bda-2c1b-4bf4-b695-4ebf1c6842d9:
+    contentColumnType: string
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: footerTestimonial
+    instructions: 'Chose a testimonial to be displayed in the footer'
+    name: 'Footer Testimonial'
+    searchable: true
+    settings:
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: 'add Testimonial'
+      source: null
+      sources:
+        - 'section:181fbd7b-76a6-4a70-894b-ed1eae2628ee'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  55284741-e43e-4123-a5de-b40c768e5a1d:
+    contentColumnType: text
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: wysiwygContent
+    instructions: 'Feel free to write anything'
+    name: 'Free Text'
+    searchable: true
+    settings:
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  56785704-09c3-4495-a95b-b181c28bab5d:
+    contentColumnType: text
+    fieldGroup: 2b880046-85d9-47ac-b3c7-594e72546a02
+    handle: bannerText
+    instructions: 'Content for the banner'
+    name: Text
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5db93988-8682-4af2-870d-6c6e238ce5d7:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: homeBannerImage
+    instructions: 'Pick a screenshot to be displayed in the MacBook Mock-Up'
+    name: Screenshot
+    searchable: true
+    settings:
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:7b1af1be-0f1c-40bf-8784-904c88f7b533'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: 'add Screenshot'
+      singleUploadLocationSource: 'volume:1a60bd4c-68b4-4f2b-b8dd-f4fbddf8bbec'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: '1'
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  6675f442-07ae-48a7-a836-b9e439e6238b:
+    contentColumnType: text
+    fieldGroup: cf6a3e4f-7e8b-43f8-a5e9-4370241857b4
+    handle: featureFullTitle
+    instructions: 'The longer version of the Feature Topic'
+    name: 'Feature Topic Full Title'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  697981a0-fe61-468e-8368-6e91e653bd32:
+    contentColumnType: string
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: allFeaturesHeadline
+    instructions: ''
+    name: 'Headline (All Features)'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6dcbec58-0145-4190-a77f-e5d9d500a591:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: pricingPreheadline
+    instructions: 'Small flavour headline that gets displayed above the big one'
+    name: Preheadline
+    searchable: true
+    settings:
+      charLimit: '20'
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6edd394e-161f-40e1-a589-01f565bdea13:
+    contentColumnType: string
+    fieldGroup: cf6a3e4f-7e8b-43f8-a5e9-4370241857b4
+    handle: featureIcon
+    instructions: 'Choose an icon to be sometimes displayed when those features are mentioned'
+    name: 'Feature Icon'
+    searchable: true
+    settings:
+      options:
+        -
+          default: ''
+          label: Calendar
+          value: icon-calendar-big
+        -
+          default: ''
+          label: Sliders
+          value: icon-preferences
+        -
+          default: ''
+          label: Membercard
+          value: icon-membercard
+        -
+          default: ''
+          label: Graph
+          value: icon-report
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  7a905cbf-bc95-415c-83f6-0d59b9db8d10:
+    contentColumnType: string
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: headline
+    instructions: 'Headline for this content'
+    name: Headline
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: introHeadline
+    instructions: 'This is the most prominent headline atop of the page'
+    name: Headline
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  86f229b8-7b45-40d0-931a-f5f0a80fcb27:
+    contentColumnType: text
+    fieldGroup: 48fbf893-4cdd-4cab-a83a-58479041a7f9
+    handle: quote
+    instructions: 'Put here what people say about Studio Bookings!'
+    name: Quote
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  879b04a7-da33-4353-a7cc-2d87e8189f99:
+    contentColumnType: string
+    fieldGroup: e7419426-87c4-42bf-969e-8af8cb885a8c
+    handle: appHighlights
+    instructions: 'Select some text bits'
+    name: 'App Highlights'
+    searchable: true
+    settings:
+      limit: ''
+      localizeRelations: false
+      selectionLabel: 'Add Benefit'
+      source: null
+      sources:
+        - 'section:c547fb1a-7732-4cb2-a222-0f98d07082c8'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  93266ced-a5a8-4a71-a6fd-61b58161d2f1:
+    contentColumnType: string
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: images
+    instructions: ''
+    name: Images
+    searchable: true
+    settings:
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:1a60bd4c-68b4-4f2b-b8dd-f4fbddf8bbec'
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: 'Label?'
+      singleUploadLocationSource: 'volume:7b1af1be-0f1c-40bf-8784-904c88f7b533'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  a1f80ca1-ccec-4d6a-965e-d74d751aae8d:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: appHeadline
+    instructions: 'Headline for the App section'
+    name: 'App Headline'
+    searchable: true
+    settings:
+      charLimit: '250'
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a82d38e8-b071-4bb9-8dba-0d6d9ee2e978:
+    contentColumnType: string
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: footerHeadline
+    instructions: 'Headline for the box above the footer section'
+    name: 'Footer Headline'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  aafc403c-c698-4dfe-a285-8e5181d9f6df:
+    name: 'Color Scheme'
+    handle: featureColorScheme
+    instructions: 'Colors make everything better!'
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      options:
+        -
+          label: red
+          value: red
+          default: ''
+        -
+          label: blue
+          value: blue
+          default: ''
+        -
+          label: purple
+          value: purple
+          default: ''
+        -
+          label: green
+          value: green
+          default: ''
+        -
+          label: orange
+          value: orange
+          default: ''
+        -
+          label: yellow
+          value: yellow
+          default: ''
+        -
+          label: 'dark blue'
+          value: darkblue
+          default: ''
+        -
+          label: white
+          value: white
+          default: ''
+    contentColumnType: string
+    fieldGroup: cf6a3e4f-7e8b-43f8-a5e9-4370241857b4
+  b0d9bbd2-10c6-4d12-80f6-4c7cbae88384:
+    contentColumnType: string
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: memberBoxes
+    instructions: 'Select up to 3 highlights to be displayed'
+    name: 'Boxes (Members)'
+    searchable: true
+    settings:
+      limit: '3'
+      localizeRelations: false
+      selectionLabel: 'add box'
+      source: null
+      sources:
+        - 'section:c547fb1a-7732-4cb2-a222-0f98d07082c8'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  b6f4e7cc-4192-4ff0-949c-3478910eddda:
+    contentColumnType: string
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: icon
+    instructions: 'Chose an icon!'
+    name: Icon
+    searchable: true
+    settings:
+      options:
+        -
+          default: ''
+          label: Clock
+          value: icon-time
+        -
+          default: ''
+          label: Calendar
+          value: icon-calendar
+        -
+          default: ''
+          label: 'Credit Card'
+          value: icon-credit-card
+        -
+          default: ''
+          label: 'Member Card'
+          value: icon-profile
+        -
+          default: ''
+          label: Lock
+          value: icon-lock
+        -
+          default: ''
+          label: 'Alert Bell'
+          value: icon-alarm
+        -
+          default: ''
+          label: 'Organization Chart'
+          value: icon-organization
+        -
+          default: ''
+          label: Tacho
+          value: icon-metrics
+        -
+          default: ''
+          label: Chart
+          value: icon-chart
+        -
+          default: ''
+          label: Fingerprint
+          value: icon-fingerprint
+        -
+          default: ''
+          label: 'Crossed-Out Dollar Sign'
+          value: icon-no-cost
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  be4ee28f-b240-4ca7-a5ca-3757fb592be4:
+    contentColumnType: text
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+    handle: miscPageContent
+    instructions: 'Your content here!'
+    name: 'Page Content'
+    searchable: true
+    settings:
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  c1d9cece-b23d-42c1-84bc-f3e79f882d45:
+    contentColumnType: text
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: appText
+    instructions: 'Short text about the app'
+    name: 'App Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c69ecb63-26fc-47a9-b4e0-fcf34eb84c0f:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: testimonialHeadline
+    instructions: 'Headline for the Testimonial Section'
+    name: 'Testimonial Headline'
+    searchable: true
+    settings:
+      charLimit: '200'
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d1192f9c-cca9-4854-a1a7-359484ed4c67:
+    contentColumnType: text
+    fieldGroup: 2b880046-85d9-47ac-b3c7-594e72546a02
+    handle: bannerHeadline
+    instructions: 'Headline for the banner content'
+    name: Headline
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  daf90f82-e200-4c74-b114-f250d273fd2f:
+    contentColumnType: string
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: scheduleBoxes
+    instructions: 'Select 3 highlights'
+    name: 'Boxes (Schedule)'
+    searchable: true
+    settings:
+      limit: '3'
+      localizeRelations: false
+      selectionLabel: 'add Box'
+      source: null
+      sources:
+        - 'section:c547fb1a-7732-4cb2-a222-0f98d07082c8'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  dfda3d57-fdeb-42eb-9d01-b8a8a4ae3419:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: featuresHeadline
+    instructions: 'Headline for the "Feature" section on the home page'
+    name: 'Features Headline'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e213e0ec-026e-4276-9c24-4b7c511ec84e:
+    contentColumnType: string
+    fieldGroup: 2eec48d6-e14a-4ae8-b9b7-098bc5f814df
+    handle: statValue
+    instructions: 'The numerical value you want to present'
+    name: Value
+    searchable: false
+    settings:
+      charLimit: '10'
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: '> 90%'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e45b756f-d575-41f8-b88b-63ed7ec6047d:
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: bannerTestimonial
+    instructions: 'Select a testimonial to be displayed'
+    name: Testimonial
+    searchable: true
+    settings:
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: 'add Testimonial'
+      source: null
+      sources:
+        - 'section:181fbd7b-76a6-4a70-894b-ed1eae2628ee'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  e8f22854-f8bb-459c-9916-85f5d1b00bcd:
+    contentColumnType: string
+    fieldGroup: 7eba8e76-9286-4e4a-b693-57a98ba34030
+    handle: pages
+    instructions: 'List all entries to be displayed in the main navigation'
+    name: Pages
+    searchable: '1'
+    settings:
+      limit: '7'
+      localizeRelations: false
+      selectionLabel: Label
+      source: null
+      sources:
+        - singles
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  e940681e-1b03-46ca-99bd-89e35b32a7b5:
+    contentColumnType: string
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: scheduleHeadline
+    instructions: ''
+    name: 'Headline (Schedule)'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ee5cb943-ea6c-4a6f-b120-878cf25550c2:
+    contentColumnType: string
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: studioHeadline
+    instructions: ''
+    name: 'Headline (Studio)'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f177bc03-0c92-4350-a3ea-7cbf673b0ecf:
+    contentColumnType: text
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: pricingText
+    instructions: 'Write a few words'
+    name: 'Pricing Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f226972b-0259-4e02-9c32-bf98c12a3488:
+    contentColumnType: text
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: studioText
+    instructions: ''
+    name: 'Text (Studio)'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f79da9ce-bcf1-43de-a280-68949d1c1e79:
+    contentColumnType: string
+    fieldGroup: 48fbf893-4cdd-4cab-a83a-58479041a7f9
+    handle: location
+    instructions: 'Where are those fans of yours located?'
+    name: 'Studio & Location'
+    searchable: true
+    settings:
+      charLimit: '200'
+      code: ''
+      columnType: string
+      initialRows: '4'
+      multiline: ''
+      placeholder: Capetown
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f9fff31d-c2ee-454c-b722-ed9771f4d823:
+    contentColumnType: text
+    fieldGroup: e157059b-f5f7-4510-b495-976d7d1b4271
+    handle: allFeaturesText
+    instructions: ''
+    name: 'Text (All Features)'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  fabb2a66-15b3-4c0a-aa03-b80fa7403e7a:
+    contentColumnType: text
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: featuresText
+    instructions: 'Write a short statement about the features of the software'
+    name: 'Features Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  fe255088-1066-4e23-9aaf-39e1b79245a8:
+    contentColumnType: text
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+    handle: aboutUsText
+    instructions: 'A short paragraph about Studio Bookings as a whole'
+    name: 'About Us Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  1f50dc18-95d2-493d-b554-c734b53b4120:
+    name: 'Testimonial Slider'
+    handle: testimonialSlider
+    instructions: 'Select multiple testimonials to be shown in a slider'
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Entries
+    settings:
+      sources:
+        - 'section:181fbd7b-76a6-4a70-894b-ed1eae2628ee'
+      source: null
+      targetSiteId: null
+      viewMode: null
+      limit: ''
+      selectionLabel: 'Add Testimonial'
+      localizeRelations: false
+    contentColumnType: string
+    fieldGroup: e6733a5b-6fcf-43ce-a981-033c98975dd1
+  a1eec44a-0ab7-4718-b89b-cf790d61fc55:
+    name: Visibility
+    handle: show
+    instructions: 'Should the banner and its content be shown?'
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Lightswitch
+    settings:
+      default: ''
+    contentColumnType: boolean
+    fieldGroup: d2ebcd98-48ce-47dd-b429-e8228f74e620
+  13e4b208-4f39-463c-b50d-156262abe325:
+    name: 'Base Page'
+    handle: basePage
+    instructions: 'Select a content page which should be used as base. Parts of this page get overridden'
+    searchable: false
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Entries
+    settings:
+      sources:
+        - singles
+      source: null
+      targetSiteId: null
+      viewMode: null
+      limit: '1'
+      selectionLabel: 'choose Page'
+      localizeRelations: false
+    contentColumnType: string
+    fieldGroup: 807a10d7-8868-4085-8bfd-97596052e70c
+  ba4eef0c-a60d-432f-880c-c180754539e2:
+    name: 'Meta Title'
+    handle: metaTitle
+    instructions: 'Piece of text show in the Browser tab an mostly like in Google Search Results'
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: '90'
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 807a10d7-8868-4085-8bfd-97596052e70c
+  5af51c9e-7bc7-472e-a7f1-6cfb53108ae8:
+    name: 'Meta Description'
+    handle: metaDescription
+    instructions: 'Longer text to briefly summarise the content of this site. Mostly likely read and displayed by Google'
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: '160'
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 807a10d7-8868-4085-8bfd-97596052e70c
+  aadbbf5f-1c13-4841-b05e-906a6a082fef:
+    name: 'Header image'
+    handle: headerImage
+    instructions: 'Select a (shapelike) Image for the top right'
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Assets
+    settings:
+      useSingleFolder: ''
+      defaultUploadLocationSource: 'volume:b9ceaa8e-7281-47e8-91cf-a5bf480d8171'
+      defaultUploadLocationSubpath: ''
+      singleUploadLocationSource: 'volume:7b1af1be-0f1c-40bf-8784-904c88f7b533'
+      singleUploadLocationSubpath: ''
+      restrictFiles: '1'
+      allowedKinds:
+        - image
+      sources:
+        - 'volume:1a60bd4c-68b4-4f2b-b8dd-f4fbddf8bbec'
+      source: null
+      targetSiteId: null
+      viewMode: large
+      limit: '1'
+      selectionLabel: 'add image'
+      localizeRelations: false
+    contentColumnType: string
+    fieldGroup: 807a10d7-8868-4085-8bfd-97596052e70c
+globalSets:
+  290c70c7-7501-4bcc-b648-ac88bd5dc570:
+    name: 'Top Banner'
+    handle: topBanner
+    fieldLayouts:
+      ca084190-19b8-401e-8057-fbe0181ca321:
+        tabs:
+          -
+            name: Banner
+            sortOrder: 1
+            fields:
+              be4ee28f-b240-4ca7-a5ca-3757fb592be4:
+                required: true
+                sortOrder: 1
+              aafc403c-c698-4dfe-a285-8e5181d9f6df:
+                required: true
+                sortOrder: 2
+              a1eec44a-0ab7-4718-b89b-cf790d61fc55:
+                required: false
+                sortOrder: 3
+imageTransforms:
+  0aca403c-5c84-40b1-a9b9-88dd02394e2f:
+    format: null
+    handle: screenshotRetina
+    height: '822'
+    interlace: none
+    mode: crop
+    name: 'Macbook Screenshot Retina'
+    position: top-center
+    quality: '60'
+    width: '1314'
+  2e5d96bc-f456-4235-8113-83b276fdcb5e:
+    format: null
+    handle: screenshot
+    height: '411'
+    interlace: none
+    mode: crop
+    name: 'MacBook Screenshot'
+    position: top-center
+    quality: '60'
+    width: '657'
+  30a475d6-cba4-4cfa-84cc-ba7ab1c88a9f:
+    format: null
+    handle: tinyPersonThumbnail
+    height: '80'
+    interlace: none
+    mode: crop
+    name: 'Tiny Person Thumbnail'
+    position: center-center
+    quality: '60'
+    width: '80'
+  d9b7d4b9-6b04-4df9-a612-0bc029f69928:
+    format: null
+    handle: personThumbnail
+    height: '160'
+    interlace: none
+    mode: crop
+    name: 'Person Thumbnail'
+    position: center-center
+    quality: '60'
+    width: '160'
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  booking:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+sections:
+  049b317b-133c-4878-9d7d-c186c558da8b:
+    enableVersioning: true
+    entryTypes:
+      ef575660-030a-4ee0-95a0-083d972bacf6:
+        fieldLayouts:
+          79c52bfe-fa1b-4cf5-9303-d58d234d4100:
+            tabs:
+              -
+                fields:
+                  1b41690c-d33a-4248-93d4-2c42c120bf09:
+                    required: true
+                    sortOrder: 2
+                  4a6c1ed8-812b-464d-8407-905c7ad45df2:
+                    required: true
+                    sortOrder: 3
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: true
+                    sortOrder: 1
+                name: Success
+                sortOrder: 1
+        handle: successPage
+        hasTitleField: true
+        name: 'Sign Up Success Page'
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: Title
+    handle: successPage
+    name: 'Sign Up Success Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/signup-success
+        uriFormat: signup/success
+    type: single
+  181fbd7b-76a6-4a70-894b-ed1eae2628ee:
+    enableVersioning: true
+    entryTypes:
+      2f5c8638-9800-4839-8b79-121c651a5aaf:
+        fieldLayouts:
+          53fedb52-265d-426c-adcb-e138325817e9:
+            tabs:
+              -
+                fields:
+                  360e3983-5f20-4ae2-adad-d413d0174810:
+                    required: true
+                    sortOrder: 2
+                  51568fa7-66e5-47b1-b7f0-9c13f1b1ba73:
+                    required: false
+                    sortOrder: 3
+                  86f229b8-7b45-40d0-931a-f5f0a80fcb27:
+                    required: true
+                    sortOrder: 1
+                  f79da9ce-bcf1-43de-a280-68949d1c1e79:
+                    required: false
+                    sortOrder: 4
+                name: Testimonial
+                sortOrder: 1
+        handle: testimonials
+        hasTitleField: false
+        name: Testimonials
+        sortOrder: 1
+        titleFormat: '{person}: {quote|slice(0, 20)}...'
+        titleLabel: Title
+    handle: testimonials
+    name: Testimonials
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: 'testimonials/{slug}'
+    type: channel
+  1f30a2e7-5b94-4f88-8ca2-dce964a1e8ad:
+    enableVersioning: true
+    entryTypes:
+      98ea7457-a89a-4756-996e-95bda651cf90:
+        fieldLayouts:
+          14a63027-2253-4e1b-8fe2-6e87a657503e:
+            tabs:
+              -
+                fields:
+                  3a93eeed-7d4a-4efe-a9cc-a52623ce4a98:
+                    required: true
+                    sortOrder: 2
+                  6675f442-07ae-48a7-a836-b9e439e6238b:
+                    required: true
+                    sortOrder: 1
+                  6edd394e-161f-40e1-a589-01f565bdea13:
+                    required: true
+                    sortOrder: 4
+                  aafc403c-c698-4dfe-a285-8e5181d9f6df:
+                    required: true
+                    sortOrder: 3
+                name: Standards
+                sortOrder: 1
+              -
+                fields:
+                  2856e2d3-a934-496b-90bd-08abf67da58f:
+                    required: true
+                    sortOrder: 1
+                name: 'Feature List'
+                sortOrder: 2
+        handle: features
+        hasTitleField: true
+        name: Features
+        sortOrder: 1
+        titleFormat: '{featureDescription|striptags}'
+        titleLabel: 'Feature Topic'
+    handle: features
+    name: Features
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: 'features/{slug}'
+    structure:
+      maxLevels: '1'
+      uid: 100551dd-0a60-4be3-af81-d9505eb0efe7
+    type: structure
+  3182a870-69bd-4a1f-8fa0-9bba43843ff4:
+    enableVersioning: true
+    entryTypes:
+      0d89da47-45da-4b82-9dfd-732cbc724d10:
+        fieldLayouts:
+          6e59beed-5311-4099-b17b-dc12d87e2171:
+            tabs:
+              -
+                fields:
+                  55284741-e43e-4123-a5de-b40c768e5a1d:
+                    required: '1'
+                    sortOrder: '2'
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: '1'
+                    sortOrder: '1'
+                name: 'Business not found'
+                sortOrder: '1'
+        handle: businessNotFoundPage
+        hasTitleField: '0'
+        name: 'No Business Found Page'
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
+    handle: businessNotFoundPage
+    name: 'No Business Found Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/businessnotfound
+        uriFormat: nobusinessfound
+    type: single
+  5253bdb7-a21b-47f4-8cfd-5e70198c181f:
+    enableVersioning: true
+    entryTypes:
+      c0ecb209-3d36-46c3-9d66-968175f2cee5:
+        name: 'Home Page'
+        handle: index
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 1
+        fieldLayouts:
+          932a7189-c2c9-4786-aab4-0510f72b64f0:
+            tabs:
+              -
+                name: Intro
+                sortOrder: 1
+                fields:
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: true
+                    sortOrder: 1
+                  1b41690c-d33a-4248-93d4-2c42c120bf09:
+                    required: true
+                    sortOrder: 2
+                  c69ecb63-26fc-47a9-b4e0-fcf34eb84c0f:
+                    required: true
+                    sortOrder: 3
+                  381db379-82de-4241-b426-8e6a1df1f626:
+                    required: true
+                    sortOrder: 4
+              -
+                name: Features
+                sortOrder: 2
+                fields:
+                  dfda3d57-fdeb-42eb-9d01-b8a8a4ae3419:
+                    required: true
+                    sortOrder: 1
+                  fabb2a66-15b3-4c0a-aa03-b80fa7403e7a:
+                    required: true
+                    sortOrder: 2
+                  31ad8c62-77b5-4a01-b655-a29ad2033c0f:
+                    required: true
+                    sortOrder: 3
+              -
+                name: Banner
+                sortOrder: 3
+                fields:
+                  e45b756f-d575-41f8-b88b-63ed7ec6047d:
+                    required: true
+                    sortOrder: 1
+              -
+                name: Pricing
+                sortOrder: 4
+                fields:
+                  6dcbec58-0145-4190-a77f-e5d9d500a591:
+                    required: true
+                    sortOrder: 1
+                  0781ae2b-1564-435c-944c-0e084e14ca7a:
+                    required: true
+                    sortOrder: 2
+                  f177bc03-0c92-4350-a3ea-7cbf673b0ecf:
+                    required: true
+                    sortOrder: 3
+                  5163fa72-c6c6-47ad-85c3-6ba08b1db828:
+                    required: true
+                    sortOrder: 4
+              -
+                name: App
+                sortOrder: 5
+                fields:
+                  a1f80ca1-ccec-4d6a-965e-d74d751aae8d:
+                    required: true
+                    sortOrder: 1
+                  c1d9cece-b23d-42c1-84bc-f3e79f882d45:
+                    required: true
+                    sortOrder: 2
+                  31bb22ce-b8d4-4f62-abd2-24a4f660dea1:
+                    required: false
+                    sortOrder: 3
+              -
+                name: 'About Us'
+                sortOrder: 6
+                fields:
+                  4950ad9d-2554-42a8-b235-9c44fe5406b3:
+                    required: true
+                    sortOrder: 1
+                  509fa8ad-76b4-429b-8016-fcb26fbd420b:
+                    required: true
+                    sortOrder: 2
+                  fe255088-1066-4e23-9aaf-39e1b79245a8:
+                    required: true
+                    sortOrder: 3
+              -
+                name: 'Testimonial Slider'
+                sortOrder: 7
+                fields:
+                  1f50dc18-95d2-493d-b554-c734b53b4120:
+                    required: true
+                    sortOrder: 1
+    handle: index
+    name: 'Home Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/index
+        uriFormat: __home__
+    type: single
+  58d2d8ed-fcc6-4706-9559-f21921615e45:
+    enableVersioning: true
+    entryTypes:
+      c3e7efd4-19fa-4c18-84c2-182c292f062f:
+        fieldLayouts:
+          64701a1b-990b-44d7-b689-1bb441e0f7f8:
+            tabs:
+              -
+                fields:
+                  1b41690c-d33a-4248-93d4-2c42c120bf09:
+                    required: true
+                    sortOrder: 2
+                  381db379-82de-4241-b426-8e6a1df1f626:
+                    required: true
+                    sortOrder: 3
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: true
+                    sortOrder: 1
+                name: FAQ
+                sortOrder: 1
+        handle: faqPage
+        hasTitleField: false
+        name: 'FAQ Page'
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
+    handle: faqPage
+    name: 'FAQ Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/faq
+        uriFormat: faq
+    type: single
+  678fafcc-56de-4823-ba5d-6a02611a4f48:
+    enableVersioning: true
+    entryTypes:
+      ba69dad7-b30f-44c7-a10c-65ea1305e5ce:
+        fieldLayouts:
+          34eb8582-62c2-4a82-97c6-0551d8e983ca:
+            tabs:
+              -
+                fields:
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: true
+                    sortOrder: 1
+                  be4ee28f-b240-4ca7-a5ca-3757fb592be4:
+                    required: true
+                    sortOrder: 2
+                name: Page
+                sortOrder: 1
+        handle: privacyPolicyPage
+        hasTitleField: true
+        name: 'Privacy Policy Page'
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: Title
+    handle: privacyPolicyPage
+    name: 'Privacy Policy Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/plain
+        uriFormat: privacy-policy
+    type: single
+  6a35a1b8-d37f-41ee-ba73-60f1baed7e85:
+    enableVersioning: true
+    entryTypes:
+      7f900854-0021-4cac-b650-80f2d05ebf63:
+        fieldLayouts:
+          8ce51e9d-eb1c-4433-ae2d-95af27b49372:
+            tabs:
+              -
+                fields:
+                  31bb22ce-b8d4-4f62-abd2-24a4f660dea1:
+                    required: true
+                    sortOrder: 2
+                  381db379-82de-4241-b426-8e6a1df1f626:
+                    required: true
+                    sortOrder: 3
+                  a1f80ca1-ccec-4d6a-965e-d74d751aae8d:
+                    required: true
+                    sortOrder: 1
+                name: Intro
+                sortOrder: 1
+              -
+                fields:
+                  7a905cbf-bc95-415c-83f6-0d59b9db8d10:
+                    required: true
+                    sortOrder: 2
+                  879b04a7-da33-4353-a7cc-2d87e8189f99:
+                    required: true
+                    sortOrder: 1
+                  e45b756f-d575-41f8-b88b-63ed7ec6047d:
+                    required: true
+                    sortOrder: 3
+                name: Highlights
+                sortOrder: 2
+              -
+                fields:
+                  56785704-09c3-4495-a95b-b181c28bab5d:
+                    required: true
+                    sortOrder: 2
+                  a82d38e8-b071-4bb9-8dba-0d6d9ee2e978:
+                    required: true
+                    sortOrder: 3
+                  d1192f9c-cca9-4854-a1a7-359484ed4c67:
+                    required: true
+                    sortOrder: 1
+                name: 'Banner & Footer'
+                sortOrder: 3
+        handle: appPage
+        hasTitleField: true
+        name: 'App Page'
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: Title
+    handle: appPage
+    name: 'App Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/app
+        uriFormat: app
+    type: single
+  72467e82-f3c2-49fe-b929-674311d0c1db:
+    enableVersioning: true
+    entryTypes:
+      82cad624-91f5-4bee-b941-d44316b4f61f:
+        fieldLayouts:
+          a28c1743-e073-46f1-929a-89c23c3dfbaf:
+            tabs:
+              -
+                fields:
+                  1b41690c-d33a-4248-93d4-2c42c120bf09:
+                    required: true
+                    sortOrder: 2
+                  4a6c1ed8-812b-464d-8407-905c7ad45df2:
+                    required: false
+                    sortOrder: 3
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: true
+                    sortOrder: 1
+                name: 'Signup Form'
+                sortOrder: 1
+        handle: signupPage
+        hasTitleField: false
+        name: 'Signup Page'
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
+    handle: signupPage
+    name: 'Signup Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/signup
+        uriFormat: signup
+    type: single
+  7cb3c30c-253d-436f-9ed1-e840c3e462a5:
+    enableVersioning: true
+    entryTypes:
+      d88c7451-2719-4497-afce-4559ed024464:
+        fieldLayouts:
+          bc42e0ad-e481-41ff-9922-62439352adc3:
+            tabs:
+              -
+                fields:
+                  537b3879-758f-47d8-b581-219583e2aa36:
+                    required: true
+                    sortOrder: 2
+                  e213e0ec-026e-4276-9c24-4b7c511ec84e:
+                    required: true
+                    sortOrder: 1
+                name: Statistics
+                sortOrder: 1
+        handle: statistics
+        hasTitleField: true
+        name: Statistics
+        sortOrder: 1
+        titleFormat: ''
+        titleLabel: Title
+    handle: statistics
+    name: Statistics
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: 'statistics/{slug}'
+    structure:
+      maxLevels: '1'
+      uid: 64ee449d-8066-43c6-9b8e-24203d1face2
+    type: structure
+  b3d7c5e7-6f33-43bf-8e21-c679e7986db9:
+    enableVersioning: true
+    entryTypes:
+      7b52e4a6-0c6d-44be-bd3d-fcfcf276a54f:
+        fieldLayouts:
+          e7e35430-55ad-4d23-98e3-d5822d8b7a85:
+            tabs:
+              -
+                fields:
+                  1b41690c-d33a-4248-93d4-2c42c120bf09:
+                    required: true
+                    sortOrder: 2
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: true
+                    sortOrder: 1
+                name: Intro
+                sortOrder: 1
+              -
+                fields:
+                  1c808958-bbfc-4421-8383-75978d09ebf9:
+                    required: true
+                    sortOrder: 2
+                  daf90f82-e200-4c74-b114-f250d273fd2f:
+                    required: true
+                    sortOrder: 3
+                  e940681e-1b03-46ca-99bd-89e35b32a7b5:
+                    required: true
+                    sortOrder: 1
+                name: 'Schedule Management'
+                sortOrder: 2
+              -
+                fields:
+                  3545835d-c05a-4f64-b919-b1884164dfc7:
+                    required: true
+                    sortOrder: 2
+                  5204de2c-e2d8-4fe5-a283-3099ec437c28:
+                    required: true
+                    sortOrder: 1
+                  b0d9bbd2-10c6-4d12-80f6-4c7cbae88384:
+                    required: true
+                    sortOrder: 3
+                name: 'Member Management'
+                sortOrder: 3
+              -
+                fields:
+                  381db379-82de-4241-b426-8e6a1df1f626:
+                    required: true
+                    sortOrder: 1
+                name: Testimonial
+                sortOrder: 4
+              -
+                fields:
+                  0bfd7dd3-d9e4-4b41-b8d2-0addd62e6d19:
+                    required: true
+                    sortOrder: 1
+                  ee5cb943-ea6c-4a6f-b120-878cf25550c2:
+                    required: true
+                    sortOrder: 2
+                  f226972b-0259-4e02-9c32-bf98c12a3488:
+                    required: true
+                    sortOrder: 3
+                name: 'Studio Management'
+                sortOrder: 5
+              -
+                fields:
+                  3d79b2e1-11e0-4d48-9447-4db129085807:
+                    required: true
+                    sortOrder: 4
+                  697981a0-fe61-468e-8368-6e91e653bd32:
+                    required: true
+                    sortOrder: 1
+                  7a905cbf-bc95-415c-83f6-0d59b9db8d10:
+                    required: true
+                    sortOrder: 3
+                  f9fff31d-c2ee-454c-b722-ed9771f4d823:
+                    required: true
+                    sortOrder: 2
+                name: 'All Features'
+                sortOrder: 6
+              -
+                fields:
+                  54695bda-2c1b-4bf4-b695-4ebf1c6842d9:
+                    required: true
+                    sortOrder: 1
+                name: 'Footer Testimonial'
+                sortOrder: 7
+        handle: featuresPage
+        hasTitleField: true
+        name: 'Features Page'
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: Title
+    handle: featuresPage
+    name: 'Features Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/features
+        uriFormat: features
+    type: single
+  c547fb1a-7732-4cb2-a222-0f98d07082c8:
+    enableVersioning: true
+    entryTypes:
+      54b78009-1e80-4243-bf56-15b1e1f04840:
+        fieldLayouts:
+          6d060ebc-631c-4578-b37e-3745189a9b00:
+            tabs:
+              -
+                fields:
+                  18db0d3f-ded9-4e58-b5c6-7631587fabb0:
+                    required: true
+                    sortOrder: 3
+                  7a905cbf-bc95-415c-83f6-0d59b9db8d10:
+                    required: true
+                    sortOrder: 2
+                  b6f4e7cc-4192-4ff0-949c-3478910eddda:
+                    required: true
+                    sortOrder: 1
+                name: Box
+                sortOrder: 1
+        handle: multipurposeBoxes
+        hasTitleField: false
+        name: 'Multipurpose Boxes'
+        sortOrder: 1
+        titleFormat: '{headline}'
+        titleLabel: Title
+    handle: multipurposeBoxes
+    name: 'Multipurpose Boxes'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: 'multipurpose-boxes/{slug}'
+    structure:
+      maxLevels: '1'
+      uid: 09082e4f-4a9c-4e3f-99d6-baaeb767f08e
+    type: structure
+  f0433246-f795-4398-8702-e35a9104ba2d:
+    enableVersioning: true
+    entryTypes:
+      b5de2ad5-821a-4f02-a628-4db8c92dc64a:
+        fieldLayouts:
+          1d33c8eb-9de1-41b7-a9c2-e291122351a8:
+            tabs:
+              -
+                fields:
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: true
+                    sortOrder: 1
+                  be4ee28f-b240-4ca7-a5ca-3757fb592be4:
+                    required: true
+                    sortOrder: 2
+                name: Page
+                sortOrder: 1
+        handle: termsPage
+        hasTitleField: true
+        name: 'Terms Page'
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: Title
+    handle: termsPage
+    name: 'Terms Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/plain
+        uriFormat: terms-of-use
+    type: single
+  f1837057-4cd1-4fa6-8ff4-90732c336613:
+    enableVersioning: true
+    entryTypes:
+      7039a124-ac41-4699-bb2e-56e9fb5212f8:
+        name: 'Pricing Page'
+        handle: pricingPage
+        hasTitleField: false
+        titleLabel: ''
+        titleFormat: '{section.name|raw}'
+        sortOrder: 1
+        fieldLayouts:
+          1b1360ce-0608-4295-beac-3156a3621c57:
+            tabs:
+              -
+                name: Pricing
+                sortOrder: 1
+                fields:
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: true
+                    sortOrder: 1
+                  1b41690c-d33a-4248-93d4-2c42c120bf09:
+                    required: true
+                    sortOrder: 2
+                  381db379-82de-4241-b426-8e6a1df1f626:
+                    required: true
+                    sortOrder: 3
+                  5163fa72-c6c6-47ad-85c3-6ba08b1db828:
+                    required: true
+                    sortOrder: 4
+                  7a905cbf-bc95-415c-83f6-0d59b9db8d10:
+                    required: false
+                    sortOrder: 5
+              -
+                name: Banner
+                sortOrder: 2
+                fields:
+                  6dcbec58-0145-4190-a77f-e5d9d500a591:
+                    required: true
+                    sortOrder: 1
+                  d1192f9c-cca9-4854-a1a7-359484ed4c67:
+                    required: true
+                    sortOrder: 2
+                  56785704-09c3-4495-a95b-b181c28bab5d:
+                    required: true
+                    sortOrder: 3
+              -
+                name: 'FAQ & Testimonial'
+                sortOrder: 3
+                fields:
+                  1e3890f3-19f5-43e8-88bf-59d54969a5a5:
+                    required: true
+                    sortOrder: 1
+                  54695bda-2c1b-4bf4-b695-4ebf1c6842d9:
+                    required: true
+                    sortOrder: 2
+    handle: pricingPage
+    name: 'Pricing Page'
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: pages/pricing
+        uriFormat: pricing
+    type: single
+  ffd13bf6-fec9-4c20-9eb8-d1414ab03824:
+    enableVersioning: true
+    entryTypes:
+      91a95275-b344-41eb-aaef-825ae754c75d:
+        fieldLayouts:
+          8e7fe10b-451d-4aa3-92b0-7b3e5db828f2:
+            tabs:
+              -
+                fields:
+                  112602df-0180-49a2-948a-220fef66f91b:
+                    required: true
+                    sortOrder: 1
+                  2afc4804-8ab2-4d82-9505-6a94ac8c36c9:
+                    required: true
+                    sortOrder: 2
+                name: FAQ
+                sortOrder: 1
+        handle: faqs
+        hasTitleField: true
+        name: FAQs
+        sortOrder: 1
+        titleFormat: ''
+        titleLabel: Title
+    handle: faqs
+    name: FAQs
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: 'faqs/{slug}'
+    structure:
+      maxLevels: '1'
+      uid: 43db9751-4c9f-46f0-9c3a-61a0ed49515d
+    type: structure
+  70d18dc9-5ade-4ae1-9571-67a29f86313d:
+    name: 'SEO-Page (Features)'
+    handle: seoPage
+    type: channel
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      14f66afa-acc3-4156-9155-945c97ab110b:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: '{slug}'
+        template: pages/seo-features
+    entryTypes:
+      9e383eda-70b7-4785-80c6-25cbd2081110:
+        name: SEO-Page
+        handle: seoPage
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 1
+        fieldLayouts:
+          441f5313-8a03-4fc9-afc1-9781daaff0c3:
+            tabs:
+              -
+                name: 'SEO Page'
+                sortOrder: 1
+                fields:
+                  13e4b208-4f39-463c-b50d-156262abe325:
+                    required: true
+                    sortOrder: 1
+                  ba4eef0c-a60d-432f-880c-c180754539e2:
+                    required: true
+                    sortOrder: 2
+                  5af51c9e-7bc7-472e-a7f1-6cfb53108ae8:
+                    required: true
+                    sortOrder: 3
+              -
+                name: Content
+                sortOrder: 2
+                fields:
+                  804f0b50-0fde-46fd-b791-a7ee0ba4ef41:
+                    required: true
+                    sortOrder: 1
+                  1b41690c-d33a-4248-93d4-2c42c120bf09:
+                    required: true
+                    sortOrder: 2
+                  aadbbf5f-1c13-4841-b05e-906a6a082fef:
+                    required: true
+                    sortOrder: 3
+                  7a905cbf-bc95-415c-83f6-0d59b9db8d10:
+                    required: true
+                    sortOrder: 4
+                  18db0d3f-ded9-4e58-b5c6-7631587fabb0:
+                    required: true
+                    sortOrder: 5
+                  aafc403c-c698-4dfe-a285-8e5181d9f6df:
+                    required: false
+                    sortOrder: 6
+siteGroups:
+  c8951ec5-1dbb-474c-b01c-03f9d1034818:
+    name: StudioBookings
+sites:
+  14f66afa-acc3-4156-9155-945c97ab110b:
+    siteGroup: c8951ec5-1dbb-474c-b01c-03f9d1034818
+    name: StudioBookings
+    handle: default
+    language: en-US
+    hasUrls: true
+    baseUrl: '@web'
+    sortOrder: 1
+    primary: true
+system:
+  edition: solo
+  live: true
+  name: StudioBookings
+  schemaVersion: 3.1.25
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
+volumes:
+  1a60bd4c-68b4-4f2b-b8dd-f4fbddf8bbec:
+    handle: images
+    hasUrls: true
+    name: Images
+    settings:
+      path: images/
+    sortOrder: '2'
+    type: craft\volumes\Local
+    url: '@web/images/'
+  7b1af1be-0f1c-40bf-8784-904c88f7b533:
+    fieldLayouts:
+      dff60cc1-ee83-4d0e-a505-abcfce7641c1:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: fonts
+    hasUrls: true
+    name: Fonts
+    settings:
+      path: fonts/
+    sortOrder: '1'
+    type: craft\volumes\Local
+    url: '@web/fonts/'
+  b9ceaa8e-7281-47e8-91cf-a5bf480d8171:
+    name: 'Header Images'
+    handle: headerImages
+    type: craft\volumes\Local
+    hasUrls: true
+    url: '@web/images/'
+    settings:
+      path: headerimages/
+    sortOrder: '3'

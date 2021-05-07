@@ -1,0 +1,36 @@
+{% extends 'skeleton.twig' %}
+
+
+{% if entry.slug == 'privacy-policy-page' %}
+    {% set globalTitle = 'Privacy Policy - StudioBookingsOnline' %}
+{% elseif entry.slug == 'terms-page' %}
+    {% set globalTitle = 'Terms of Use - StudioBookingsOnline' %}
+{% endif %}
+
+
+
+{% set metaTitle = globalTitle  %}
+
+{% set ogTitle = globalTitle %}
+
+{% set twitterTitle = globalTitle %}
+
+
+{% block mainContent %}
+
+   <section class="plainpage">
+
+       <div class="reduced-wrapper">
+
+           <h1 class="headline-size-2 align-center">{{ entry.introHeadline }}</h1>
+
+           <div class="wysiwyg-content -normal-lists">{{ entry.miscPageContent }}</div>
+
+       </div>
+
+   </section>
+
+{% endblock %}
+
+{% block lastcta %}{% endblock %}
+

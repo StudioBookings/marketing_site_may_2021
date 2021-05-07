@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="321px" height="468px" viewBox="0 0 321 468" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="66.8911737%" y1="9.58834232%" x2="29.0792632%" y2="88.1316505%" id="linearGradient-1">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-984.000000, -3676.000000)" fill="url(#linearGradient-1)">
+            <g id="Section/About-us" transform="translate(335.000000, 3676.000000)">
+                <path d="M835.334898,9.70794873 C945.152055,60.2809697 900.387489,104.243646 938.361795,195.801192 C976.336101,287.358739 987.050962,338.462542 931.366528,389.096465 C731.651993,570.697132 759.266634,401.106004 675.31968,258.403272 C591.372726,115.70054 725.517741,-40.8650722 835.334898,9.70794873 Z" id="shape" transform="translate(809.500000, 234.000000) scale(-1, 1) translate(-809.500000, -234.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

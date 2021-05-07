@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="464px" height="516px" viewBox="0 0 464 516" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="86.6542984%" y1="0%" x2="14.5274689%" y2="98.3879555%" id="linearGradient-1">
+            <stop stop-color="#8834FF" offset="0%"></stop>
+            <stop stop-color="#C96DFB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="10.072431%" x2="1.61204453%" y2="88.6402687%" id="linearGradient-2">
+            <stop stop-color="#8834FF" offset="0%"></stop>
+            <stop stop-color="#C96DFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pricing" transform="translate(-778.000000, -419.000000)">
+            <g id="Section/Header" transform="translate(86.000000, 210.000000)">
+                <g id="shapes" transform="translate(0.000000, 35.000000)">
+                    <g id="Group-8" transform="translate(692.000000, 174.000000)">
+                        <path d="M425.488239,423.506499 C364.253893,506.617933 178.461486,565.002419 105.954047,457.098211 C33.4466079,349.194004 -36.9599894,373.05437 100.227555,173.199011 C237.415099,-26.6563474 344.21984,-31.7235579 407,48.4980986 C469.78016,128.719755 486.722585,340.395066 425.488239,423.506499 Z" id="Path-13" fill="url(#linearGradient-1)" opacity="0.109999999"></path>
+                        <path d="M25.9504391,427.112458 C44.9594488,414.390435 89,407.144893 89,438.779994 C89,449.528863 70.8069693,450.798549 50.687412,468.436464 C28.6813673,487.728178 6.0346963,512.294169 -1.59905297,493.606005 C-13.1614272,465.300183 6.94142948,439.834482 25.9504391,427.112458 Z" id="Path-11" fill="url(#linearGradient-2)" opacity="0.200000003" transform="translate(42.000000, 458.270444) rotate(-270.000000) translate(-42.000000, -458.270444) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

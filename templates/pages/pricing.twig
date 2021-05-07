@@ -1,0 +1,200 @@
+{% extends 'skeleton.twig' %}
+
+
+{% set globalTitle = 'Pricing - StudioBookingsOnline - Yoga Studio Software | Fitness Studio' %}
+{% set globalDescripton = 'The best Fitness Studio Software &amp; Yoga Studio Software. We provide the best, simplest and most time saving way to manage your studio online' %}
+
+{% set metaTitle = globalTitle  %}
+{% set metaDescription = globalDescripton %}
+
+{% set ogTitle = globalTitle %}
+{% set ogDescription = globalDescripton %}
+{% set ogImage = 'images/og/studiobookings-pricing.png' %}
+
+{% set twitterTitle = globalTitle %}
+{% set twitterDescription = globalDescripton %}
+
+{% block mainContent %}
+
+   <section class="pricing-intro small-wrapper">
+
+       <h1 class="headline-size-1 align-center">{{ entry.introHeadline }}</h1>
+       <p class="align-center _intro-text">{{ entry.introText }}</p>
+   </section>
+
+    <section class="pricing-visualisation align-center">
+
+       <p class="_price">$<span class="js-cost"></span> USD <sup class="sup">monthly</sup></p>
+
+       <p class="_howto">Choose how many instructors you have:</p>
+
+       <div class="pricing-slider">
+           <button class="_button js-decrease-instructors icon-minus"></button>
+           <div class="_bar">
+               <span class="_step -one">1</span>
+               <span class="_step -two">5</span>
+               <span class="_step -three">10</span>
+               <span class="_step -four">15+</span>
+           </div>
+           <button class="_button js-increase-instructors icon-plus"></button>
+       </div>
+
+       <div class="cta-box">
+
+           <a href="signup" title="Try Us free now" class="button-full">Try Us free now</a>
+
+           <p class="lock-text">Try the first 14 days for free. No payment required.</p>
+
+       </div>
+
+   </section>
+
+    <section class="small-wrapper align-center pricing-features">
+
+        <h3 class="headline-size-3-5"><span class="underline">Included</span> Features in <strong>every</strong> plan:</h3>
+
+        <div class="wysiwyg-content">
+            {{ entry.pricingFeatures }}
+        </div>
+
+        <a href="features" title="View all included Features" class="button-full">View all included Features</a>
+    </section>
+
+    {% set testimonial = entry.introTestimonial.one() %}
+
+    <section class="testimonial-small -centered">
+
+        <i class="icon-five-stars"></i>
+
+        <blockquote class="quote">"{{ testimonial.quote }}"</blockquote>
+
+        <cite class="testimonial-giver">
+
+            <figure class="_images">
+
+                {% for image in testimonial.imagesPerson.all() %}
+
+                    <img class="_tiny-thumbnail" src="{{ image.getUrl('tinyPersonThumbnail') }}" alt="{{ testimonial.person }}">
+
+                {% endfor %}
+
+            </figure>
+
+
+            <strong>{{ testimonial.person }}</strong> - {{ testimonial.location }}
+
+        </cite>
+
+    </section>
+
+
+    <section class="fullwidth-banner no-margin-bottom">
+
+        <div class="banner-wrapper">
+
+            <div class="_content">
+
+                <h4 class="preheadline -dot -cyan">{{ entry.pricingPreheadline }}</h4>
+
+                <h2 class="headline-size-2">{{ entry.bannerHeadline }}</h2>
+
+                <p>{{ entry.bannerText }}</p>
+
+                <a href="signup" title="Start Your Free Trial" class="button-full -white">Start Your Free Trial</a>
+
+            </div>
+
+            <figure class="laptop-screenshot-box">
+
+                <img class="_screenshot" src="images/screenshots/homepage.jpg" alt="Screenshot of our software">
+
+            </figure>
+
+        </div>
+
+    </section>
+
+    <section class="faq-entries">
+
+        <div class="wrapper">
+
+            <h2 class="headline-size-2 align-center">Frequently Asked Questions</h2>
+
+            <div class="grid-wrapper">
+
+                {% set faqs = entry.selectedFaqs.limit(6).all() %}
+
+                {% for faq in faqs %}
+
+                    <article class="faq-entry grid-box -half">
+
+                        <h3 class="headline-size-4">{{ faq.question }}</h3>
+
+                        {% set sentences = faq.answer|split('.') %}
+
+                        {% set trimmedsentence = '' %}
+
+                        {% for sentence in sentences %}
+
+                            {% if trimmedsentence|length < 75 %}
+                                {% set trimmedsentence = trimmedsentence ~ sentence ~ '.' %}
+                            {% endif %}
+
+                        {% endfor %}
+
+                        <p>{{ trimmedsentence|replace({'..' : '.'}) }}</p>
+
+                    </article>
+
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </section>
+
+{% endblock %}
+
+
+{% block lastcta %}
+    <div class="last-cta-box -with-testimonial wrapper">
+
+        {% set testimonial = entry.footerTestimonial.one() %}
+
+        <div class="testimonial-small">
+
+            <i class="icon-five-stars"></i>
+
+            <blockquote class="quote">"{{ testimonial.quote }}"</blockquote>
+
+            <cite class="testimonial-giver">
+
+                <figure class="_images">
+
+                    {% for image in testimonial.imagesPerson.all() %}
+
+                        <img class="_tiny-thumbnail" src="{{ image.getUrl('tinyPersonThumbnail') }}" alt="{{ testimonial.person }}">
+
+                    {% endfor %}
+
+                </figure>
+
+                <strong>{{ testimonial.person }}</strong> - {{ testimonial.location }}
+
+            </cite>
+        </div>
+
+        <div class="_buttons">
+            <a href="signup" class="button-full" title="Try Us Free Now!">Try Us Free Now!</a>
+            <a href="{{ videolink }}" data-width="640" data-ratio="16:9" data-fancybox class="button-simple" title="Watch the Video">Watch the Video <i class="icon-forward-arrow"><span class="last"></span></i></a>
+        </div>
+    </div>
+{% endblock %}
+
+
+
+{% block footerscripts %}
+    <script async defer src="scripts/pricing-slider.js"></script>
+{% endblock %}

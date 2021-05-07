@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="746px" viewBox="0 0 300 746" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>shape03</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="58.0649708%" y1="0%" x2="41.9350292%" y2="94.6605947%" id="linearGradient-1">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Additional-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g id="Terms-of-Use" transform="translate(-124.000000, -3347.000000)" fill="url(#linearGradient-1)">
+            <g id="Shapes" transform="translate(-158.531847, 263.699205)">
+                <path d="M392.964331,3087.89208 C515.872817,3062.9462 605.929773,3137.39418 576.525255,3366.80038 C547.120737,3596.20657 580.167099,3798.6886 445.066679,3827.77089 C354.999732,3847.15909 301.291276,3677.89578 283.941312,3319.98095 C274.684334,3181.88563 311.02534,3104.52267 392.964331,3087.89208 Z" id="shape03"></path>
+            </g>
+        </g>
+    </g>
+</svg>

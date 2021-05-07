@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="726px" height="649px" viewBox="0 0 726 649" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Path 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="15.7435633%" y1="10.0722097%" x2="91.8875445%" y2="85.3164797%" id="linearGradient-1">
+            <stop stop-color="#8834FF" offset="0%"></stop>
+            <stop stop-color="#C96DFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features" transform="translate(-182.000000, -828.000000)" fill="url(#linearGradient-1)">
+            <g id="Section/Feature-#1" transform="translate(182.000000, 727.000000)">
+                <g id="Mockup" transform="translate(0.000000, 101.000000)">
+                    <path d="M64.2545363,42.27084 C166.981358,-43.1516834 487.185651,0.00466214059 600.900234,194.11064 C651.795636,280.986936 789.189171,426.869394 692.178731,580.208332 C595.168292,733.54727 292.82195,583.072835 136.589566,580.208332 C-19.6428178,577.343829 -38.4722857,127.693363 64.2545363,42.27084 Z" id="Path-16"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

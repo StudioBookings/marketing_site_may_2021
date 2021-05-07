@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="529px" height="713px" viewBox="0 0 529 713" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="77.5234131%" y1="0%" x2="22.4765869%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF5572" offset="0%"></stop>
+            <stop stop-color="#FF7C74" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="27.1246894%" x2="0%" y2="72.8753106%" id="linearGradient-2">
+            <stop stop-color="#FF5572" offset="0%"></stop>
+            <stop stop-color="#FF7C74" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pricing" transform="translate(-86.000000, -245.000000)">
+            <g id="Section/Header" transform="translate(86.000000, 104.000000)">
+                <g id="shapes">
+                    <g id="Group-5" transform="translate(0.000000, 141.000000)">
+                        <path d="M39.8036164,55.5669326 C100.312142,-63.7354402 350.552101,27.8856407 363.057567,153.331923 C375.563034,278.778206 585.721379,446.585387 514.190113,540.545152 C442.658846,634.504918 228.624158,793.041496 103.489345,665.112774 C-21.6454671,537.184051 -20.7049094,174.869305 39.8036164,55.5669326 Z" id="Path-14" fill="url(#linearGradient-1)" opacity="0.100000001"></path>
+                        <path d="M446.52872,149.545199 C470.565024,154.832492 494.51136,191.24358 474.391803,208.881494 C452.385758,228.173208 390.628173,207.464873 382.994424,188.776709 C371.43205,160.470887 422.492416,144.257906 446.52872,149.545199 Z" id="Path-11-Copy" fill="url(#linearGradient-2)" opacity="0.200000003" transform="translate(431.618416, 182.576829) rotate(-300.000000) translate(-431.618416, -182.576829) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

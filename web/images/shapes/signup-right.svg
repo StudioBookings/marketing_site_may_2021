@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="412px" height="851px" viewBox="0 0 412 851" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="58.4120567%" y1="9.58834232%" x2="39.5811607%" y2="88.1316505%" id="linearGradient-1">
+            <stop stop-color="#008EFF" offset="0%"></stop>
+            <stop stop-color="#88E0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000003">
+        <g id="Signup" transform="translate(-953.000000, -283.000000)" fill="url(#linearGradient-1)">
+            <path d="M1285.76153,385.682822 C1224.95467,214.5855 971.093235,271.007037 960.895535,453.938127 C950.697835,636.869217 1014.03361,747.82742 960.895535,862.284304 C907.757455,976.741188 1137.17986,1148.65129 1220.8273,1132.68282 C1304.47475,1116.71436 1364.37102,934.754332 1364.77543,785.182822 C1365.17984,635.611313 1346.56839,556.780145 1285.76153,385.682822 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

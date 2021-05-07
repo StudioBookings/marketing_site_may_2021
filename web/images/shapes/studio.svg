@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="820px" height="595px" viewBox="0 0 820 595" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.11022302e-14%" y1="72.3307555%" x2="100%" y2="27.6692445%" id="linearGradient-1">
+            <stop stop-color="#82F0A9" offset="0%"></stop>
+            <stop stop-color="#27CB86" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1.11022302e-14%" y1="52.5928831%" x2="100%" y2="47.4071169%" id="linearGradient-2">
+            <stop stop-color="#82F0A9" offset="0%"></stop>
+            <stop stop-color="#27CB86" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features" transform="translate(-222.000000, -3359.000000)">
+            <g id="Section/Feature-#3" transform="translate(135.000000, 3250.000000)">
+                <g id="Mockup" transform="translate(87.000000, 109.000000)">
+                    <g id="Group" transform="translate(0.000000, 0.000000)">
+                        <path d="M664.565731,59.4874774 C485.461942,79.8864042 162.124028,-9.55361213 57.7405401,113.482374 C-46.642948,236.51836 -10.018318,475.079143 171.852019,566.067015 C353.722356,657.054886 462.597869,505.840046 677.831153,489.493436 C893.064437,473.146826 843.66952,39.0885506 664.565731,59.4874774 Z" id="Path-2" fill="url(#linearGradient-1)"></path>
+                        <path d="M517.961441,39.4311125 C565.014125,46.0420411 610.618846,50.1047044 647.249186,39.4311125 C683.879527,28.7575207 692.400264,8.10214218 647.249186,1.75839049 C602.098109,-4.58536121 514.915527,7.74056255 490.460729,14.8663642 C466.00593,21.9921658 470.908756,32.820184 517.961441,39.4311125 Z" id="Path-17" fill="url(#linearGradient-2)" opacity="0.200000003"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

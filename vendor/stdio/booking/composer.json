@@ -1,0 +1,43 @@
+{
+    "name": "stdio/booking",
+    "description": "booking plugin",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "booking"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "devloper",
+            "homepage": "studio.test"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "stdio\\booking\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "booking",
+        "handle": "booking",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "components": {
+            "newservice": "stdio\\booking\\services\\Newservice"
+        },
+        "class": "stdio\\booking\\Booking"
+    }
+}

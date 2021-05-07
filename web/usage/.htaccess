@@ -1,0 +1,5 @@
+AuthUserFile /www/htdocs/w017e2ae/manhattan.jcpw.de/web/usage/.htpasswd
+AuthGroupFile /dev/null
+AuthName 'ByPassword'
+AuthType Basic
+require valid-user
